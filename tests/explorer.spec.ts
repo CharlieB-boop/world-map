@@ -168,7 +168,8 @@ test('journey preview is opt-in, shows a labelled connection and updates with se
   await page.getByRole('button', { name: 'Preview journey' }).click();
   await expect(page.getByTestId('journey-route')).toHaveAttribute('data-destination', 'AU');
   await expect(page.locator('.journey-summary')).toContainText('United Kingdom → Australia');
-  await expect(page.getByText('Illustrative connection · not a shipping itinerary')).toBeVisible();
+  await expect(page.getByText('Representative sea route · Sydney example')).toBeVisible();
+  await expect(page.getByTestId('journey-route')).toHaveAttribute('data-route-kind', 'researched');
   await expect(page.locator('.rsm-zoomable-group')).toHaveAttribute('transform', /scale\(1\)/);
   const path = await page.locator('.journey-line').getAttribute('d');
   expect(path).toBeTruthy();

@@ -3,7 +3,8 @@ import { ComposableMap, Geographies, Geography, Graticule, Marker, ZoomableGroup
 import { geoArea } from 'd3-geo';
 import { Compass, LoaderCircle, Minus, MousePointer2, Plus, RotateCcw, Route } from 'lucide-react';
 import { countries, countriesByNumericCode, navigateToCountry } from '../data/countries';
-import JourneyRoute, { UK_ORIGIN } from './JourneyRoute';
+import JourneyRoute from './JourneyRoute';
+import { shippingRoutes, UK_ORIGIN } from '../data/shippingRoutes';
 import type { Country, Region } from '../types/country';
 
 // Kosovo has no ISO numeric ID in Natural Earth. Match its user-assigned
@@ -38,6 +39,7 @@ export default function WorldMap({ selected, region, position, setPosition, onSe
   const isVisible = (country: Country) => region === 'All destinations' || region === country.region;
   const journeyCountry = selected && isVisible(selected) ? selected : null;
   const journeyVisible = showJourney && !!journeyCountry;
+  const shippingRoute = journeyCountry ? shippingRoutes[journeyCountry.iso] : undefined;
   function interactiveProps(country: Country) {
     return {
       role: 'button', tabIndex: 0, 'aria-label': `Explore ${country.name}`,
@@ -64,14 +66,27 @@ export default function WorldMap({ selected, region, position, setPosition, onSe
   return <div className="map-stage" aria-label="Interactive world destination map">
     <div className="map-caption"><Compass size={15} /><span>THE WORLD IS WAITING</span></div>
     <button className="journey-toggle" aria-pressed={journeyVisible} disabled={!journeyCountry}
-      title={journeyCountry ? 'Show an illustrative connection from the UK' : 'Select a destination to preview a journey'}
+      title={journeyCountry ? 'Show a researched sea corridor or a labelled schematic connection' : 'Select a destination to preview a journey'}
       onClick={() => {
         setShowJourney(!journeyVisible);
         if (!journeyVisible) setPosition(initialPosition);
       }}><Route size={14} />{journeyVisible ? 'Hide journey' : 'Preview journey'}</button>
     {journeyVisible && journeyCountry && <div className="journey-summary">
       <strong>United Kingdom <span aria-hidden="true">→</span> {journeyCountry.name}</strong>
-      <span>Illustrative connection · not a shipping itinerary</span>
+      {shippingRoute ? <>
+        <span className="journey-ports">{shippingRoute.departure} → {shippingRoute.arrival}</span>
+        <span>{shippingRoute.via}</span>
+        <span>{shippingRoute.scope}</span>
+        <details key={journeyCountry.iso} className="journey-details">
+          <summary>Route details &amp; sources</summary>
+          <div className="journey-detail-body">
+            <p>{shippingRoute.note}</p>
+            <p>Approximate visual corridor with selected calls. Not a PSS itinerary, live vessel track or navigation chart. Seaport legs exclude inland collection and delivery.</p>
+            {shippingRoute.sources.map(source => <a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer">{source.title} ↗</a>)}
+            <p>Sources checked 20 October 2026.</p>
+          </div>
+        </details>
+      </> : <span>Schematic connection · shipping route not researched yet</span>}
     </div>}
     {!geography && <div className="map-loading" role="status">{error ? <><p>We couldn’t load the map.</p><button className="text-button" onClick={() => setAttempt(value => value + 1)}>Try again</button></> : <><LoaderCircle className="loading-spinner" /> Loading your world…</>}</div>}
     {geography && <ComposableMap width={900} height={510} projection="geoEqualEarth" projectionConfig={{ scale: 170 }}
@@ -114,7 +129,7 @@ export default function WorldMap({ selected, region, position, setPosition, onSe
           }}
         </Geographies>
         {journeyVisible && journeyCountry && <JourneyRoute key={journeyCountry.iso} country={journeyCountry} zoom={position.zoom} />}
-        <Marker coordinates={UK_ORIGIN} className="uk-origin" aria-hidden="true">
+        <Marker coordinates={journeyVisible && shippingRoute ? shippingRoute.waypoints[0] : UK_ORIGIN} className="uk-origin" aria-hidden="true">
           <circle r={3.5 / position.zoom} fill="#142d4e" stroke="white" strokeWidth={1.5 / position.zoom} />
         </Marker>
       </ZoomableGroup>
