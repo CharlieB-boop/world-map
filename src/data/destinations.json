@@ -1,0 +1,1694 @@
+[
+  {
+    "iso": "AL",
+    "numericCode": "008",
+    "name": "Albania",
+    "flag": "🇦🇱",
+    "capital": "Tirana",
+    "population": "Approx. 2.4 million",
+    "region": "Europe",
+    "coordinates": [
+      20,
+      41
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Albania.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "AD",
+    "numericCode": "020",
+    "name": "Andorra",
+    "flag": "🇦🇩",
+    "capital": "Andorra la Vella",
+    "population": "Approx. 81,000",
+    "region": "Europe",
+    "coordinates": [
+      1.5,
+      42.5
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Andorra.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "AG",
+    "numericCode": "028",
+    "name": "Antigua and Barbuda",
+    "flag": "🇦🇬",
+    "capital": "Saint John's",
+    "population": "Approx. 94,000",
+    "region": "Caribbean",
+    "coordinates": [
+      -61.8,
+      17.05
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Antigua and Barbuda.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "AM",
+    "numericCode": "051",
+    "name": "Armenia",
+    "flag": "🇦🇲",
+    "capital": "Yerevan",
+    "population": "Approx. 3 million",
+    "region": "Europe",
+    "coordinates": [
+      45,
+      40
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Armenia.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "AU",
+    "numericCode": "036",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "capital": "Canberra",
+    "population": "Approx. 27 million",
+    "region": "Oceania",
+    "coordinates": [
+      133,
+      -27
+    ],
+    "description": "A new chapter, a little more sunshine. Discover the possibilities of life Down Under.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "AT",
+    "numericCode": "040",
+    "name": "Austria",
+    "flag": "🇦🇹",
+    "capital": "Vienna",
+    "population": "Approx. 9.2 million",
+    "region": "Europe",
+    "coordinates": [
+      13.33333333,
+      47.33333333
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Austria.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "AZ",
+    "numericCode": "031",
+    "name": "Azerbaijan",
+    "flag": "🇦🇿",
+    "capital": "Baku",
+    "population": "Approx. 10.2 million",
+    "region": "Europe",
+    "coordinates": [
+      47.5,
+      40.5
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Azerbaijan.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "BS",
+    "numericCode": "044",
+    "name": "Bahamas",
+    "flag": "🇧🇸",
+    "capital": "Nassau",
+    "population": "Approx. 400,000",
+    "region": "Caribbean",
+    "coordinates": [
+      -76,
+      24.25
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Bahamas.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "BH",
+    "numericCode": "048",
+    "name": "Bahrain",
+    "flag": "🇧🇭",
+    "capital": "Manama",
+    "population": "Approx. 1.6 million",
+    "region": "Middle East",
+    "coordinates": [
+      50.55,
+      26
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Bahrain.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "BD",
+    "numericCode": "050",
+    "name": "Bangladesh",
+    "flag": "🇧🇩",
+    "capital": "Dhaka",
+    "population": "Approx. 174 million",
+    "region": "Asia",
+    "coordinates": [
+      90,
+      24
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Bangladesh.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "BB",
+    "numericCode": "052",
+    "name": "Barbados",
+    "flag": "🇧🇧",
+    "capital": "Bridgetown",
+    "population": "Approx. 280,000",
+    "region": "Caribbean",
+    "coordinates": [
+      -59.53333333,
+      13.16666666
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Barbados.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "BY",
+    "numericCode": "112",
+    "name": "Belarus",
+    "flag": "🇧🇾",
+    "capital": "Minsk",
+    "population": "Approx. 9.1 million",
+    "region": "Europe",
+    "coordinates": [
+      28,
+      53
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Belarus.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "BE",
+    "numericCode": "056",
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "capital": "Brussels",
+    "population": "Approx. 11.8 million",
+    "region": "Europe",
+    "coordinates": [
+      4,
+      50.83333333
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Belgium.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "BA",
+    "numericCode": "070",
+    "name": "Bosnia and Herzegovina",
+    "flag": "🇧🇦",
+    "capital": "Sarajevo",
+    "population": "Approx. 3.2 million",
+    "region": "Europe",
+    "coordinates": [
+      18,
+      44
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Bosnia and Herzegovina.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "BN",
+    "numericCode": "096",
+    "name": "Brunei",
+    "flag": "🇧🇳",
+    "capital": "Bandar Seri Begawan",
+    "population": "Approx. 460,000",
+    "region": "Asia",
+    "coordinates": [
+      114.66666666,
+      4.5
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Brunei.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "BG",
+    "numericCode": "100",
+    "name": "Bulgaria",
+    "flag": "🇧🇬",
+    "capital": "Sofia",
+    "population": "Approx. 6.4 million",
+    "region": "Europe",
+    "coordinates": [
+      25,
+      43
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Bulgaria.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "KH",
+    "numericCode": "116",
+    "name": "Cambodia",
+    "flag": "🇰🇭",
+    "capital": "Phnom Penh",
+    "population": "Approx. 17 million",
+    "region": "Asia",
+    "coordinates": [
+      105,
+      13
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Cambodia.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "CA",
+    "numericCode": "124",
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "capital": "Ottawa",
+    "population": "Approx. 41 million",
+    "region": "North America",
+    "coordinates": [
+      -95,
+      60
+    ],
+    "description": "From vibrant cities to the great outdoors. Find your next chapter in Canada.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "CN",
+    "numericCode": "156",
+    "name": "China",
+    "flag": "🇨🇳",
+    "capital": "Beijing",
+    "population": "Approx. 1.4 billion",
+    "region": "Asia",
+    "coordinates": [
+      105,
+      35
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in China.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "HR",
+    "numericCode": "191",
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "capital": "Zagreb",
+    "population": "Approx. 3.9 million",
+    "region": "Europe",
+    "coordinates": [
+      15.5,
+      45.16666666
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Croatia.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "CY",
+    "numericCode": "196",
+    "name": "Cyprus",
+    "flag": "🇨🇾",
+    "capital": "Nicosia",
+    "population": "Approx. 1.4 million",
+    "region": "Europe",
+    "coordinates": [
+      33,
+      35
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Cyprus.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "CZ",
+    "numericCode": "203",
+    "name": "Czechia",
+    "flag": "🇨🇿",
+    "capital": "Prague",
+    "population": "Approx. 10.9 million",
+    "region": "Europe",
+    "coordinates": [
+      15.5,
+      49.75
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Czechia.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "DK",
+    "numericCode": "208",
+    "name": "Denmark",
+    "flag": "🇩🇰",
+    "capital": "Copenhagen",
+    "population": "Approx. 6 million",
+    "region": "Europe",
+    "coordinates": [
+      10,
+      56
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Denmark.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "DM",
+    "numericCode": "212",
+    "name": "Dominica",
+    "flag": "🇩🇲",
+    "capital": "Roseau",
+    "population": "Approx. 66,000",
+    "region": "Caribbean",
+    "coordinates": [
+      -61.33333333,
+      15.41666666
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Dominica.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "DO",
+    "numericCode": "214",
+    "name": "Dominican Republic",
+    "flag": "🇩🇴",
+    "capital": "Santo Domingo",
+    "population": "Approx. 11.4 million",
+    "region": "Caribbean",
+    "coordinates": [
+      -70.66666666,
+      19
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Dominican Republic.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "EE",
+    "numericCode": "233",
+    "name": "Estonia",
+    "flag": "🇪🇪",
+    "capital": "Tallinn",
+    "population": "Approx. 1.4 million",
+    "region": "Europe",
+    "coordinates": [
+      26,
+      59
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Estonia.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "FJ",
+    "numericCode": "242",
+    "name": "Fiji",
+    "flag": "🇫🇯",
+    "capital": "Suva",
+    "population": "Approx. 930,000",
+    "region": "Oceania",
+    "coordinates": [
+      175,
+      -18
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Fiji.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "FI",
+    "numericCode": "246",
+    "name": "Finland",
+    "flag": "🇫🇮",
+    "capital": "Helsinki",
+    "population": "Approx. 5.6 million",
+    "region": "Europe",
+    "coordinates": [
+      26,
+      64
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Finland.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "FR",
+    "numericCode": "250",
+    "name": "France",
+    "flag": "🇫🇷",
+    "capital": "Paris",
+    "population": "Approx. 68 million",
+    "region": "Europe",
+    "coordinates": [
+      2,
+      46
+    ],
+    "description": "From city apartments to countryside living. Discover your own corner of France.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "GE",
+    "numericCode": "268",
+    "name": "Georgia",
+    "flag": "🇬🇪",
+    "capital": "Tbilisi",
+    "population": "Approx. 3.7 million",
+    "region": "Europe",
+    "coordinates": [
+      43.5,
+      42
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Georgia.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "DE",
+    "numericCode": "276",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "capital": "Berlin",
+    "population": "Approx. 84 million",
+    "region": "Europe",
+    "coordinates": [
+      9,
+      51
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Germany.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "GR",
+    "numericCode": "300",
+    "name": "Greece",
+    "flag": "🇬🇷",
+    "capital": "Athens",
+    "population": "Approx. 10.4 million",
+    "region": "Europe",
+    "coordinates": [
+      22,
+      39
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Greece.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "GD",
+    "numericCode": "308",
+    "name": "Grenada",
+    "flag": "🇬🇩",
+    "capital": "St. George's",
+    "population": "Approx. 117,000",
+    "region": "Caribbean",
+    "coordinates": [
+      -61.66666666,
+      12.11666666
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Grenada.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "HU",
+    "numericCode": "348",
+    "name": "Hungary",
+    "flag": "🇭🇺",
+    "capital": "Budapest",
+    "population": "Approx. 9.6 million",
+    "region": "Europe",
+    "coordinates": [
+      20,
+      47
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Hungary.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "IS",
+    "numericCode": "352",
+    "name": "Iceland",
+    "flag": "🇮🇸",
+    "capital": "Reykjavik",
+    "population": "Approx. 390,000",
+    "region": "Europe",
+    "coordinates": [
+      -18,
+      65
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Iceland.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "IN",
+    "numericCode": "356",
+    "name": "India",
+    "flag": "🇮🇳",
+    "capital": "New Delhi",
+    "population": "Approx. 1.4 billion",
+    "region": "Asia",
+    "coordinates": [
+      77,
+      20
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in India.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "ID",
+    "numericCode": "360",
+    "name": "Indonesia",
+    "flag": "🇮🇩",
+    "capital": "Jakarta",
+    "population": "Approx. 283 million",
+    "region": "Asia",
+    "coordinates": [
+      120,
+      -5
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Indonesia.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "IE",
+    "numericCode": "372",
+    "name": "Ireland",
+    "flag": "🇮🇪",
+    "capital": "Dublin",
+    "population": "Approx. 5.4 million",
+    "region": "Europe",
+    "coordinates": [
+      -8,
+      53
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Ireland.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "IT",
+    "numericCode": "380",
+    "name": "Italy",
+    "flag": "🇮🇹",
+    "capital": "Rome",
+    "population": "Approx. 59 million",
+    "region": "Europe",
+    "coordinates": [
+      12.83333333,
+      42.83333333
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Italy.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "JM",
+    "numericCode": "388",
+    "name": "Jamaica",
+    "flag": "🇯🇲",
+    "capital": "Kingston",
+    "population": "Approx. 2.8 million",
+    "region": "Caribbean",
+    "coordinates": [
+      -77.5,
+      18.25
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Jamaica.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "JP",
+    "numericCode": "392",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "capital": "Tokyo",
+    "population": "Approx. 124 million",
+    "region": "Asia",
+    "coordinates": [
+      138,
+      36
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Japan.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "XK",
+    "numericCode": "383",
+    "name": "Kosovo",
+    "flag": "🇽🇰",
+    "capital": "Pristina",
+    "population": "Approx. 1.6 million",
+    "region": "Europe",
+    "coordinates": [
+      21.166667,
+      42.666667
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Kosovo.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "KW",
+    "numericCode": "414",
+    "name": "Kuwait",
+    "flag": "🇰🇼",
+    "capital": "Kuwait City",
+    "population": "Approx. 4.9 million",
+    "region": "Middle East",
+    "coordinates": [
+      45.75,
+      29.5
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Kuwait.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "LA",
+    "numericCode": "418",
+    "name": "Laos",
+    "flag": "🇱🇦",
+    "capital": "Vientiane",
+    "population": "Approx. 7.8 million",
+    "region": "Asia",
+    "coordinates": [
+      105,
+      18
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Laos.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "LV",
+    "numericCode": "428",
+    "name": "Latvia",
+    "flag": "🇱🇻",
+    "capital": "Riga",
+    "population": "Approx. 1.9 million",
+    "region": "Europe",
+    "coordinates": [
+      25,
+      57
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Latvia.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "LI",
+    "numericCode": "438",
+    "name": "Liechtenstein",
+    "flag": "🇱🇮",
+    "capital": "Vaduz",
+    "population": "Approx. 40,000",
+    "region": "Europe",
+    "coordinates": [
+      9.53333333,
+      47.26666666
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Liechtenstein.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "LT",
+    "numericCode": "440",
+    "name": "Lithuania",
+    "flag": "🇱🇹",
+    "capital": "Vilnius",
+    "population": "Approx. 2.9 million",
+    "region": "Europe",
+    "coordinates": [
+      24,
+      56
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Lithuania.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "LU",
+    "numericCode": "442",
+    "name": "Luxembourg",
+    "flag": "🇱🇺",
+    "capital": "Luxembourg",
+    "population": "Approx. 670,000",
+    "region": "Europe",
+    "coordinates": [
+      6.16666666,
+      49.75
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Luxembourg.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "MY",
+    "numericCode": "458",
+    "name": "Malaysia",
+    "flag": "🇲🇾",
+    "capital": "Kuala Lumpur",
+    "population": "Approx. 35 million",
+    "region": "Asia",
+    "coordinates": [
+      112.5,
+      2.5
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Malaysia.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "MT",
+    "numericCode": "470",
+    "name": "Malta",
+    "flag": "🇲🇹",
+    "capital": "Valletta",
+    "population": "Approx. 560,000",
+    "region": "Europe",
+    "coordinates": [
+      14.58333333,
+      35.83333333
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Malta.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "MD",
+    "numericCode": "498",
+    "name": "Moldova",
+    "flag": "🇲🇩",
+    "capital": "Chișinău",
+    "population": "Approx. 2.4 million",
+    "region": "Europe",
+    "coordinates": [
+      29,
+      47
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Moldova.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "MC",
+    "numericCode": "492",
+    "name": "Monaco",
+    "flag": "🇲🇨",
+    "capital": "Monaco",
+    "population": "Approx. 39,000",
+    "region": "Europe",
+    "coordinates": [
+      7.4,
+      43.73333333
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Monaco.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "MN",
+    "numericCode": "496",
+    "name": "Mongolia",
+    "flag": "🇲🇳",
+    "capital": "Ulan Bator",
+    "population": "Approx. 3.5 million",
+    "region": "Asia",
+    "coordinates": [
+      105,
+      46
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Mongolia.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "ME",
+    "numericCode": "499",
+    "name": "Montenegro",
+    "flag": "🇲🇪",
+    "capital": "Podgorica",
+    "population": "Approx. 620,000",
+    "region": "Europe",
+    "coordinates": [
+      19.3,
+      42.5
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Montenegro.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "NP",
+    "numericCode": "524",
+    "name": "Nepal",
+    "flag": "🇳🇵",
+    "capital": "Kathmandu",
+    "population": "Approx. 30 million",
+    "region": "Asia",
+    "coordinates": [
+      84,
+      28
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Nepal.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "NL",
+    "numericCode": "528",
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "capital": "Amsterdam",
+    "population": "Approx. 18 million",
+    "region": "Europe",
+    "coordinates": [
+      5.75,
+      52.5
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Netherlands.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "NZ",
+    "numericCode": "554",
+    "name": "New Zealand",
+    "flag": "🇳🇿",
+    "capital": "Wellington",
+    "population": "Approx. 5.3 million",
+    "region": "Oceania",
+    "coordinates": [
+      174,
+      -41
+    ],
+    "description": "Wide-open landscapes and fresh possibilities. Make room for a new life in New Zealand.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "MK",
+    "numericCode": "807",
+    "name": "North Macedonia",
+    "flag": "🇲🇰",
+    "capital": "Skopje",
+    "population": "Approx. 1.8 million",
+    "region": "Europe",
+    "coordinates": [
+      22,
+      41.83333333
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in North Macedonia.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "NO",
+    "numericCode": "578",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "capital": "Oslo",
+    "population": "Approx. 5.6 million",
+    "region": "Europe",
+    "coordinates": [
+      10,
+      62
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Norway.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "OM",
+    "numericCode": "512",
+    "name": "Oman",
+    "flag": "🇴🇲",
+    "capital": "Muscat",
+    "population": "Approx. 5.3 million",
+    "region": "Middle East",
+    "coordinates": [
+      57,
+      21
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Oman.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "PK",
+    "numericCode": "586",
+    "name": "Pakistan",
+    "flag": "🇵🇰",
+    "capital": "Islamabad",
+    "population": "Approx. 250 million",
+    "region": "Asia",
+    "coordinates": [
+      70,
+      30
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Pakistan.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "PG",
+    "numericCode": "598",
+    "name": "Papua New Guinea",
+    "flag": "🇵🇬",
+    "capital": "Port Moresby",
+    "population": "Approx. 10.6 million",
+    "region": "Oceania",
+    "coordinates": [
+      147,
+      -6
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Papua New Guinea.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "PH",
+    "numericCode": "608",
+    "name": "Philippines",
+    "flag": "🇵🇭",
+    "capital": "Manila",
+    "population": "Approx. 116 million",
+    "region": "Asia",
+    "coordinates": [
+      122,
+      13
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Philippines.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "PL",
+    "numericCode": "616",
+    "name": "Poland",
+    "flag": "🇵🇱",
+    "capital": "Warsaw",
+    "population": "Approx. 37 million",
+    "region": "Europe",
+    "coordinates": [
+      20,
+      52
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Poland.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "PT",
+    "numericCode": "620",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "capital": "Lisbon",
+    "population": "Approx. 10.6 million",
+    "region": "Europe",
+    "coordinates": [
+      -8,
+      39.5
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Portugal.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "QA",
+    "numericCode": "634",
+    "name": "Qatar",
+    "flag": "🇶🇦",
+    "capital": "Doha",
+    "population": "Approx. 3 million",
+    "region": "Middle East",
+    "coordinates": [
+      51.25,
+      25.5
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Qatar.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "RO",
+    "numericCode": "642",
+    "name": "Romania",
+    "flag": "🇷🇴",
+    "capital": "Bucharest",
+    "population": "Approx. 19 million",
+    "region": "Europe",
+    "coordinates": [
+      25,
+      46
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Romania.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "KN",
+    "numericCode": "659",
+    "name": "Saint Kitts and Nevis",
+    "flag": "🇰🇳",
+    "capital": "Basseterre",
+    "population": "Approx. 47,000",
+    "region": "Caribbean",
+    "coordinates": [
+      -62.75,
+      17.33333333
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Saint Kitts and Nevis.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "LC",
+    "numericCode": "662",
+    "name": "Saint Lucia",
+    "flag": "🇱🇨",
+    "capital": "Castries",
+    "population": "Approx. 180,000",
+    "region": "Caribbean",
+    "coordinates": [
+      -60.96666666,
+      13.88333333
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Saint Lucia.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "WS",
+    "numericCode": "882",
+    "name": "Samoa",
+    "flag": "🇼🇸",
+    "capital": "Apia",
+    "population": "Approx. 220,000",
+    "region": "Oceania",
+    "coordinates": [
+      -172.33333333,
+      -13.58333333
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Samoa.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "SM",
+    "numericCode": "674",
+    "name": "San Marino",
+    "flag": "🇸🇲",
+    "capital": "City of San Marino",
+    "population": "Approx. 34,000",
+    "region": "Europe",
+    "coordinates": [
+      12.41666666,
+      43.76666666
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in San Marino.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "SA",
+    "numericCode": "682",
+    "name": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "capital": "Riyadh",
+    "population": "Approx. 34 million",
+    "region": "Middle East",
+    "coordinates": [
+      45,
+      25
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Saudi Arabia.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "RS",
+    "numericCode": "688",
+    "name": "Serbia",
+    "flag": "🇷🇸",
+    "capital": "Belgrade",
+    "population": "Approx. 6.6 million",
+    "region": "Europe",
+    "coordinates": [
+      21,
+      44
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Serbia.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "SG",
+    "numericCode": "702",
+    "name": "Singapore",
+    "flag": "🇸🇬",
+    "capital": "Singapore",
+    "population": "Approx. 6 million",
+    "region": "Asia",
+    "coordinates": [
+      103.8,
+      1.36666666
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Singapore.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "SK",
+    "numericCode": "703",
+    "name": "Slovakia",
+    "flag": "🇸🇰",
+    "capital": "Bratislava",
+    "population": "Approx. 5.4 million",
+    "region": "Europe",
+    "coordinates": [
+      19.5,
+      48.66666666
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Slovakia.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "SI",
+    "numericCode": "705",
+    "name": "Slovenia",
+    "flag": "🇸🇮",
+    "capital": "Ljubljana",
+    "population": "Approx. 2.1 million",
+    "region": "Europe",
+    "coordinates": [
+      14.81666666,
+      46.11666666
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Slovenia.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "SB",
+    "numericCode": "090",
+    "name": "Solomon Islands",
+    "flag": "🇸🇧",
+    "capital": "Honiara",
+    "population": "Approx. 820,000",
+    "region": "Oceania",
+    "coordinates": [
+      159,
+      -8
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Solomon Islands.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "ZA",
+    "numericCode": "710",
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "capital": "Pretoria / Bloemfontein / Cape Town",
+    "population": "Approx. 64 million",
+    "region": "Africa",
+    "coordinates": [
+      24,
+      -29
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in South Africa.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "KR",
+    "numericCode": "410",
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "capital": "Seoul",
+    "population": "Approx. 52 million",
+    "region": "Asia",
+    "coordinates": [
+      127.5,
+      37
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in South Korea.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "ES",
+    "numericCode": "724",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "capital": "Madrid",
+    "population": "Approx. 49 million",
+    "region": "Europe",
+    "coordinates": [
+      -4,
+      40
+    ],
+    "description": "A slower pace and a brighter outlook. Start imagining your new life in Spain.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "LK",
+    "numericCode": "144",
+    "name": "Sri Lanka",
+    "flag": "🇱🇰",
+    "capital": "Colombo",
+    "population": "Approx. 22 million",
+    "region": "Asia",
+    "coordinates": [
+      81,
+      7
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Sri Lanka.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "SE",
+    "numericCode": "752",
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "capital": "Stockholm",
+    "population": "Approx. 10.6 million",
+    "region": "Europe",
+    "coordinates": [
+      15,
+      62
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Sweden.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "CH",
+    "numericCode": "756",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "capital": "Bern",
+    "population": "Approx. 9 million",
+    "region": "Europe",
+    "coordinates": [
+      8,
+      47
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Switzerland.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "TW",
+    "numericCode": "158",
+    "name": "Taiwan",
+    "flag": "🇹🇼",
+    "capital": "Taipei",
+    "population": "Approx. 23 million",
+    "region": "Asia",
+    "coordinates": [
+      121,
+      23.5
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Taiwan.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "TH",
+    "numericCode": "764",
+    "name": "Thailand",
+    "flag": "🇹🇭",
+    "capital": "Bangkok",
+    "population": "Approx. 72 million",
+    "region": "Asia",
+    "coordinates": [
+      100,
+      15
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Thailand.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "TO",
+    "numericCode": "776",
+    "name": "Tonga",
+    "flag": "🇹🇴",
+    "capital": "Nuku'alofa",
+    "population": "Approx. 104,000",
+    "region": "Oceania",
+    "coordinates": [
+      -175,
+      -20
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Tonga.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "TT",
+    "numericCode": "780",
+    "name": "Trinidad and Tobago",
+    "flag": "🇹🇹",
+    "capital": "Port of Spain",
+    "population": "Approx. 1.5 million",
+    "region": "Caribbean",
+    "coordinates": [
+      -61,
+      11
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Trinidad and Tobago.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "TR",
+    "numericCode": "792",
+    "name": "Türkiye",
+    "flag": "🇹🇷",
+    "capital": "Ankara",
+    "population": "Approx. 85 million",
+    "region": "Europe",
+    "coordinates": [
+      35,
+      39
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Türkiye.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "UA",
+    "numericCode": "804",
+    "name": "Ukraine",
+    "flag": "🇺🇦",
+    "capital": "Kyiv",
+    "population": "Approx. 38 million",
+    "region": "Europe",
+    "coordinates": [
+      32,
+      49
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Ukraine.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "AE",
+    "numericCode": "784",
+    "name": "United Arab Emirates",
+    "flag": "🇦🇪",
+    "capital": "Abu Dhabi",
+    "population": "Approx. 11 million",
+    "region": "Middle East",
+    "coordinates": [
+      54,
+      24
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in United Arab Emirates.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "US",
+    "numericCode": "840",
+    "name": "United States",
+    "flag": "🇺🇸",
+    "capital": "Washington D.C.",
+    "population": "Approx. 340 million",
+    "region": "North America",
+    "coordinates": [
+      -97,
+      38
+    ],
+    "description": "Big cities, open roads and new beginnings. Explore your move to the United States.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "VU",
+    "numericCode": "548",
+    "name": "Vanuatu",
+    "flag": "🇻🇺",
+    "capital": "Port Vila",
+    "population": "Approx. 330,000",
+    "region": "Oceania",
+    "coordinates": [
+      167,
+      -16
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Vanuatu.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "VA",
+    "numericCode": "336",
+    "name": "Vatican City",
+    "flag": "🇻🇦",
+    "capital": "Vatican City",
+    "population": "Approx. 800",
+    "region": "Europe",
+    "coordinates": [
+      12.45,
+      41.9
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Vatican City.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  },
+  {
+    "iso": "VN",
+    "numericCode": "704",
+    "name": "Vietnam",
+    "flag": "🇻🇳",
+    "capital": "Hanoi",
+    "population": "Approx. 101 million",
+    "region": "Asia",
+    "coordinates": [
+      107.83333333,
+      16.16666666
+    ],
+    "description": "New surroundings. New possibilities. Explore your next chapter in Vietnam.",
+    "removalCost": null,
+    "transitTime": null,
+    "estimatesIllustrative": false,
+    "landingPageUrl": null
+  }
+]
