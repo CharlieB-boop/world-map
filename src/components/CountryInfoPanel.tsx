@@ -1,3 +1,4 @@
+import CountryFlag from './CountryFlag';
 import { useEffect, useRef, useState } from 'react';
 import { ArrowRight, Building2, Clock3, Globe2, MapPin, Package, Users } from 'lucide-react';
 import { getLandingPageUrl, navigateToCountry } from '../data/countries';
@@ -16,7 +17,7 @@ export default function CountryInfoPanel({ country }: { country: Country | null 
   return <aside ref={panel} className={`info-panel ${country ? 'has-country' : ''}`} aria-label="Destination information">
     {country ? <div className="country-content" key={country.iso}>
       <div className="panel-eyebrow"><span className="status-dot" /> EXPLORE {country.region.toUpperCase()}</div>
-      <div className="country-heading"><span className="large-flag" aria-hidden="true">{country.flag}</span>
+      <div className="country-heading"><span className="large-flag" aria-hidden="true"><CountryFlag iso={country.iso} /></span>
         <div><span className="small-label">YOUR NEXT CHAPTER</span><h2>{country.name}</h2></div>
       </div>
       <p className="country-description">{country.description}</p>

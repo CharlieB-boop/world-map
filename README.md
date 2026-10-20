@@ -99,3 +99,10 @@ included beside the files (Roboto: OFL; Roboto Slab: Apache 2.0).
 Map selections use PSS blue and shipping corridors use orange. Orange calls to
 action use black text for readability. Existing destination, cost/transit and
 route behaviour is retained.
+
+
+Country flags use locally hosted `public/flags/` SVGs from
+[flag-icons](https://github.com/lipis/flag-icons) (MIT license included), rather
+than emoji that can appear as country-code letters on Windows. The destination
+panel clips the flag into its circular badge; search and popular chips retain
+rectangular flags. All 94 destinations have matching SVG assets.

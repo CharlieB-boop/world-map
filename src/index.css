@@ -41,3 +41,6 @@ h1{font-weight:700;letter-spacing:-1.8px;color:var(--pss-blue)}h1>span{color:var
 @media(max-width:650px){.site-header{height:98px}.pss-logo{width:137px;height:68px}.header-note{font-size:10px;max-width:130px;line-height:1.6;gap:7px}.header-note span{max-width:100px}h1{letter-spacing:-1.2px}h1>span{text-decoration-thickness:4px;text-underline-offset:6px}.next-chapter-title h2{font-size:21px}.hero-copy>p{margin-top:23px}}
 
 .map-legend .legend-supported{background:var(--pss-light-blue)}.map-legend .legend-origin{background:var(--pss-blue)}
+
+/* Image flags work on Windows as well as systems with emoji flag fonts. */
+.country-flag{display:block;width:24px;height:18px;object-fit:contain;flex-shrink:0}.large-flag{overflow:hidden}.large-flag .country-flag{width:100%;height:100%;object-fit:cover}.result-flag{display:flex;align-items:center}.popular-chips .country-flag{width:18px;height:14px}

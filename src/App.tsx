@@ -1,3 +1,4 @@
+import CountryFlag from './components/CountryFlag';
 import { useState } from 'react';
 import { ArrowUpRight, ChevronDown, Globe2, HeartHandshake, MapPin, PackageCheck } from 'lucide-react';
 import CountryInfoPanel from './components/CountryInfoPanel';
@@ -59,7 +60,7 @@ export default function App() {
             <div className="popular-destinations"><span className="popular-label">A LITTLE INSPIRATION</span><div className="popular-chips">
               {popularDestinations.map(iso => {
                 const country = countries.find(item => item.iso === iso)!;
-                return <button key={iso} className={selected?.iso === iso ? 'selected' : ''} onClick={() => selectCountry(country)}><span aria-hidden="true">{country.flag}</span>{country.name === 'United States' ? 'USA' : country.name}<ArrowUpRight size={12} /></button>;
+                return <button key={iso} className={selected?.iso === iso ? 'selected' : ''} onClick={() => selectCountry(country)}><span aria-hidden="true"><CountryFlag iso={country.iso} /></span>{country.name === 'United States' ? 'USA' : country.name}<ArrowUpRight size={12} /></button>;
               })}
             </div></div>
           </div>

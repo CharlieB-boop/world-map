@@ -1,3 +1,4 @@
+import CountryFlag from './CountryFlag';
 import { useId, useMemo, useRef, useState } from 'react';
 import { ArrowUpRight, Search, X } from 'lucide-react';
 import { countries } from '../data/countries';
@@ -49,7 +50,7 @@ export default function CountrySearch({ onSelect }: { onSelect: (country: Countr
       {results.length ? results.map((country, index) => <button key={country.iso} id={`${id}-option-${index}`}
         role="option" aria-selected={index === active} className={index === active ? 'active' : ''}
         onMouseDown={event => event.preventDefault()} onClick={() => select(country)}>
-        <span className="result-flag" aria-hidden="true">{country.flag}</span>
+        <span className="result-flag" aria-hidden="true"><CountryFlag iso={country.iso} /></span>
         <span>{country.name}<small>{country.region}</small></span><ArrowUpRight size={17} />
       </button>) : <p className="no-results">No destinations found. Try another country name.</p>}
     </div>}
