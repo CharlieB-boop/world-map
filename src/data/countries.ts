@@ -10,7 +10,7 @@ import type { Country, Region } from '../types/country';
 export const countries = destinations as Country[];
 export const countriesByNumericCode = new Map(countries.map(c => [c.numericCode, c]));
 export const regions: Region[] = ['All destinations', 'Europe', 'North America', 'Asia', 'Middle East', 'Africa', 'Oceania', 'Caribbean'];
-export const popularDestinations = ['AU', 'CA', 'NZ', 'US', 'ES'];
+export const popularDestinations = ['AU', 'NZ', 'US', 'AE', 'CA', 'ZA', 'ES'];
 export function getLandingPageUrl(country: Country): string | null {
   if (!country.landingPageUrl) return null;
   try {
