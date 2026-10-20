@@ -43,6 +43,7 @@ test('five featured routes render, expose sources and preserve the historical NZ
   for (const [name, iso] of [['Australia','AU'], ['Canada','CA'], ['USA','US'], ['Spain','ES'], ['New Zealand','NZ']]) {
     await page.locator('.popular-chips').getByRole('button', { name: new RegExp(name) }).click();
     await expect(page.getByTestId('journey-route')).toHaveAttribute('data-destination', iso);
+    await expect(page.locator('.rsm-zoomable-group')).toHaveAttribute('transform', /scale\(1\)/);
     await expect(page.getByTestId('journey-route')).toHaveAttribute('data-route-kind', 'researched');
     const path = await page.locator('.journey-line').getAttribute('d');
     expect(path).toBeTruthy();

@@ -16,16 +16,17 @@ export interface MapPosition { coordinates: [number, number]; zoom: number }
 export const initialPosition: MapPosition = { coordinates: [8, 12], zoom: 1 };
 interface Props {
   selected: Country | null;
+  showJourney: boolean;
+  setShowJourney: (show: boolean) => void;
   region: Region;
   position: MapPosition;
   setPosition: (position: MapPosition) => void;
   onSelect: (country: Country) => void;
 }
-export default function WorldMap({ selected, region, position, setPosition, onSelect }: Props) {
+export default function WorldMap({ selected, region, position, setPosition, onSelect, showJourney, setShowJourney }: Props) {
   const [geography, setGeography] = useState<Record<string, unknown> | null>(null);
   const [error, setError] = useState(false);
   const [attempt, setAttempt] = useState(0);
-  const [showJourney, setShowJourney] = useState(false);
   const pointer = useRef({ type: 'mouse', wasSelected: false });
   const dragging = useRef(false);
   useEffect(() => {
@@ -40,6 +41,12 @@ export default function WorldMap({ selected, region, position, setPosition, onSe
   const journeyCountry = selected && isVisible(selected) ? selected : null;
   const journeyVisible = showJourney && !!journeyCountry;
   const shippingRoute = journeyCountry ? shippingRoutes[journeyCountry.iso] : undefined;
+  // Search and popular chips normally zoom to a country. While previewing a
+  // corridor, keep its full ocean crossing visible when the destination changes.
+  const journeyIso = journeyCountry?.iso;
+  useEffect(() => {
+    if (journeyVisible) setPosition(initialPosition);
+  }, [journeyVisible, journeyIso, setPosition]);
   function interactiveProps(country: Country) {
     return {
       role: 'button', tabIndex: 0, 'aria-label': `Explore ${country.name}`,

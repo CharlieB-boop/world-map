@@ -19,10 +19,11 @@ export default function App() {
   const [selected, setSelected] = useState<Country | null>(null);
   const [region, setRegion] = useState<Region>('All destinations');
   const [position, setPosition] = useState<MapPosition>(initialPosition);
+  const [showJourney, setShowJourney] = useState(false);
   function selectCountry(country: Country) {
     setSelected(country);
     setRegion('All destinations');
-    setPosition({ coordinates: country.coordinates, zoom: ['AU', 'CA', 'US', 'CN', 'IN'].includes(country.iso) ? 2.2 : 4 });
+    setPosition(showJourney ? initialPosition : { coordinates: country.coordinates, zoom: ['AU', 'CA', 'US', 'CN', 'IN'].includes(country.iso) ? 2.2 : 4 });
   }
   function selectRegion(next: Region) {
     setRegion(next);
@@ -54,7 +55,7 @@ export default function App() {
               <label className="mobile-region-select"><span className="sr-only">Filter destinations by region</span><select aria-label="Filter destinations by region" value={region} onChange={event => selectRegion(event.target.value as Region)}>{regions.map(item => <option key={item}>{item}</option>)}</select><ChevronDown size={14} /></label>
               <span className="map-count">{count} destinations</span>
             </div>
-            <WorldMap selected={selected} region={region} position={position} setPosition={setPosition} onSelect={setSelected} />
+            <WorldMap showJourney={showJourney} setShowJourney={setShowJourney} selected={selected} region={region} position={position} setPosition={setPosition} onSelect={setSelected} />
             <div className="popular-destinations"><span className="popular-label">A LITTLE INSPIRATION</span><div className="popular-chips">
               {popularDestinations.map(iso => {
                 const country = countries.find(item => item.iso === iso)!;
