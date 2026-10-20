@@ -22,7 +22,7 @@ test('hover updates country facts and keeps the last selection on mouse leave', 
   await expect(page.getByRole('heading', { name: 'Australia', exact: true })).toBeVisible();
   await expect(page.getByText('Canberra', { exact: true })).toBeVisible();
   await expect(page.getByText('Approx. 27 million', { exact: true })).toBeVisible();
-  await expect(page.getByText('Contact us for a quote')).toBeVisible();
+  await expect(page.getByText('£3,500–£6,000', { exact: true })).toBeVisible();
   await expect(page.getByText('8–16 weeks', { exact: true })).toBeVisible();
   await page.locator('h1').hover();
   await expect(page.getByRole('heading', { name: 'Australia', exact: true })).toBeVisible();
@@ -188,10 +188,11 @@ test('journey is hidden when its destination is outside the selected region', as
   await expect(page.getByRole('button', { name: 'Preview journey' })).toBeDisabled();
 });
 
-test('box guides preserve quantities and do not infer a missing two-bedroom price', async ({ page }) => {
+test('published box guides stay distinct from illustrative household budgets', async ({ page }) => {
   await page.locator('.popular-chips').getByRole('button', { name: /Australia/ }).click();
   await expect(page.getByRole('button', { name: '2-bedroom home' })).toHaveAttribute('aria-pressed', 'true');
-  await expect(page.getByText('Removals cost', { exact: true })).toBeVisible();
+  await expect(page.getByText('Removals cost · Illustrative', { exact: true })).toBeVisible();
+  await expect(page.getByText('£3,500–£6,000', { exact: true })).toBeVisible();
   await page.getByRole('button', { name: '5–10 boxes' }).click();
   await expect(page.getByRole('button', { name: '5–10 boxes' })).toHaveAttribute('aria-pressed', 'true');
   await expect(page.getByText('£315–£535', { exact: true })).toBeVisible();
@@ -239,18 +240,23 @@ test('published guides show source and scope without leaking into another shipme
   await expect(page.getByText('Test port-to-port basis.', { exact: false })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Source: Test-only source' })).toHaveAttribute('href', 'https://example.invalid/test-guide');
   await page.getByRole('button', { name: '5–10 boxes' }).click();
-  await expect(page.getByText('Contact us for a quote', { exact: true })).toBeVisible();
+  await expect(page.getByText('£500–£1,000', { exact: true })).toBeVisible();
+  await expect(page.getByText('Box shipping cost · Illustrative', { exact: true })).toBeVisible();
   await expect(page.getByText('£123–£456 (test fixture)', { exact: true })).toHaveCount(0);
   await expect(page.getByRole('link', { name: 'Source: Test-only source' })).toHaveCount(0);
 });
 
-test('missing guides keep quote placeholders and unverified destinations stay disabled', async ({ page }) => {
+test('missing researched guides show illustrative prices and times while links stay disabled', async ({ page }) => {
   await page.getByRole('combobox', { name: 'Your next chapter starts with a destination' }).fill('Armenia');
   await page.getByRole('option', { name: /Armenia/ }).click();
-  await expect(page.getByText('Contact us for a quote', { exact: true })).toBeVisible();
-  await expect(page.getByText('Transit time on request', { exact: true })).toBeVisible();
+  await expect(page.getByText('£4,500–£7,500', { exact: true })).toBeVisible();
+  await expect(page.getByText('8–14 weeks', { exact: true })).toBeVisible();
+  await expect(page.getByText('Removals cost · Illustrative', { exact: true })).toBeVisible();
+  await expect(page.getByText('Transit time · Illustrative', { exact: true })).toBeVisible();
+  await expect(page.getByRole('link', { name: /Source:/ })).toHaveCount(0);
   await page.getByRole('button', { name: '5–10 boxes' }).click();
-  await expect(page.getByText('Contact us for a quote', { exact: true })).toBeVisible();
+  await expect(page.getByText('£450–£950', { exact: true })).toBeVisible();
+  await expect(page.getByText('Box shipping cost · Illustrative', { exact: true })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Explore Removals to Armenia' })).toBeDisabled();
 });
 
@@ -290,4 +296,31 @@ test('manual example prices stay labelled illustrative beside a sourced transit 
   await expect(page.getByText('£99 (test-only example)', { exact: true })).toBeVisible();
   await expect(page.getByText('Removals cost · Illustrative', { exact: true })).toBeVisible();
   await expect(page.getByText('8–16 weeks', { exact: true })).toBeVisible();
+});
+
+test('all 94 destinations have both figures for both sizes and published fields take priority', async ({ page }) => {
+  const coverage = await page.evaluate(async () => {
+    const load = (path: string) => import(path);
+    const { countries } = await load('/src/data/countries.ts');
+    const { movingGuides } = await load('/src/data/movingGuides.ts');
+    const { resolveEstimate } = await load('/src/data/estimateDisplay.ts');
+    const errors: string[] = [];
+    let rows = 0, illustrativePrices = 0, illustrativeTimes = 0;
+    for (const country of countries) for (const shipment of ['household', 'boxes']) {
+      const source = movingGuides[country.iso]?.[shipment];
+      const result = resolveEstimate(country, shipment, source);
+      rows++;
+      if (!result.price || !result.price.includes('£') || !result.transit || !/\d/.test(result.transit)) errors.push(country.iso + ': missing figures');
+      if (source?.priceRange && (result.price !== source.priceRange || result.priceIllustrative)) errors.push(country.iso + ': published price replaced');
+      if (source?.transitTime && (result.transit !== source.transitTime || result.transitIllustrative)) errors.push(country.iso + ': published time replaced');
+      if (result.priceIllustrative) illustrativePrices++;
+      if (result.transitIllustrative) illustrativeTimes++;
+    }
+    return { countries: countries.length, rows, errors, illustrativePrices, illustrativeTimes };
+  });
+  expect(coverage.countries).toBe(94);
+  expect(coverage.rows).toBe(188);
+  expect(coverage.errors).toEqual([]);
+  expect(coverage.illustrativePrices).toBe(161);
+  expect(coverage.illustrativeTimes).toBe(108);
 });

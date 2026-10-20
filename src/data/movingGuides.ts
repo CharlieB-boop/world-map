@@ -21,7 +21,8 @@ export interface MovingGuide {
 }
 
 // Curated from fetched PSS pages on 20 October 2026. Each record retains its
-// own price scope, service, timing basis and source. Missing fields stay unknown.
+// own price scope, service, timing basis and source. Missing researched fields
+// are filled for display by explicitly illustrative prototype-estimates.json data.
 // The review ledger documents conflicting tables and explicitly broader sizes.
 export const movingGuides = publishedGuides as Partial<Record<string, Partial<Record<ShipmentType, MovingGuide>>>>;
 

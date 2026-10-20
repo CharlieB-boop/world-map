@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { ArrowRight, Building2, Clock3, Globe2, MapPin, Package, Users } from 'lucide-react';
 import { getLandingPageUrl, navigateToCountry } from '../data/countries';
 import { movingGuides, shipmentLabels, type ShipmentType } from '../data/movingGuides';
+import { resolveEstimate } from '../data/estimateDisplay';
 import type { Country } from '../types/country';
 
 export default function CountryInfoPanel({ country }: { country: Country | null }) {
@@ -9,8 +10,9 @@ export default function CountryInfoPanel({ country }: { country: Country | null 
   const panel = useRef<HTMLElement>(null);
   useEffect(() => { if (panel.current) panel.current.scrollTop = 0; }, [country?.iso]);
   const guide = country ? movingGuides[country.iso]?.[shipment] : undefined;
-  const price = guide?.priceRange || (shipment === 'household' ? country?.removalCost : null);
-  const transit = guide?.transitTime || (shipment === 'household' ? country?.transitTime : null);
+  const estimate = country ? resolveEstimate(country, shipment, guide) : null;
+  const price = estimate?.price;
+  const transit = estimate?.transit;
   return <aside ref={panel} className={`info-panel ${country ? 'has-country' : ''}`} aria-label="Destination information">
     {country ? <div className="country-content" key={country.iso}>
       <div className="panel-eyebrow"><span className="status-dot" /> EXPLORE {country.region.toUpperCase()}</div>
@@ -29,14 +31,15 @@ export default function CountryInfoPanel({ country }: { country: Country | null 
             onClick={() => setShipment(type)}>{shipmentLabels[type]}</button>)}
         </div>
         <p className="shipment-scope">{guide?.shipmentScope || (shipment === 'household'
-          ? 'A household move. Volume and destination affect your quote.'
-          : 'A small shipment. Box dimensions and total weight affect your quote.')}</p>
+          ? 'Illustrative budget for a standard 2-bedroom household move from the UK.'
+          : 'Illustrative budget for 5–10 standard cartons from the UK. Box sizes and weight affect the price.')}</p>
         <div className="guide-facts">
-          <div className="fact"><Package /><div><span>{guide?.priceRange ? 'Published price guide · GBP' : shipment === 'household' ? 'Removals cost' : 'Box shipping cost'}{!guide?.priceRange && country.estimatesIllustrative && price ? ' · Illustrative' : ''}</span><strong>{price || 'Contact us for a quote'}</strong>{guide?.priceDetails && <small className="price-breakdown">{guide.priceDetails}</small>}</div></div>
-          <div className="fact"><Clock3 /><div><span>{guide?.transitTime ? (guide.transportMode === 'Not specified' || guide.transportMode === 'Mixed' ? 'Published transit guide' : `${guide.transportMode} transit guide`) : 'Shipping transit time'}{!guide?.transitTime && country.estimatesIllustrative && transit ? ' · Illustrative' : ''}</span><strong>{transit || 'Transit time on request'}</strong>{guide?.transitTime && guide.transitScope && <small className="transit-scope">{guide.transitScope}</small>}</div></div>
+          <div className="fact"><Package /><div><span>{estimate?.priceIllustrative ? (shipment === 'household' ? 'Removals cost · Illustrative' : 'Box shipping cost · Illustrative') : guide?.priceRange ? 'Published price guide · GBP' : 'Removals cost'}</span><strong>{price}</strong>{guide?.priceRange && guide.priceDetails && <small className="price-breakdown">{guide.priceDetails}</small>}</div></div>
+          <div className="fact"><Clock3 /><div><span>{estimate?.transitIllustrative ? 'Transit time · Illustrative' : guide?.transitTime ? (guide.transportMode === 'Not specified' || guide.transportMode === 'Mixed' ? 'Published transit guide' : `${guide.transportMode} transit guide`) : 'Shipping transit time'}</span><strong>{transit}</strong>{guide?.transitTime && guide.transitScope ? <small className="transit-scope">{guide.transitScope}</small> : estimate?.transitIllustrative && <small className="transit-scope">Sample total moving window</small>}</div></div>
         </div>
+        {(estimate?.priceIllustrative || estimate?.transitIllustrative) && <p className="illustrative-note">Illustrative figures are sample budgets and timings for this prototype, not researched PSS rates.</p>}
         {guide && <div className="guide-source">
-          <p>Published planning guide, not a personalised quotation.</p>
+          <p>{guide.priceRange && guide.transitTime ? 'Published price and transit guide.' : guide.priceRange ? 'Source covers the published price only.' : 'Source covers the published transit time only.'} A personalised quotation confirms your move.</p>
           <a href={guide.source.url} target="_blank" rel="noopener noreferrer">Source: {guide.source.publisher}</a>
           <span className="source-date">{guide.source.publishedLabel ? `${guide.source.publishedLabel} · ` : ''}Checked {new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'Europe/London' }).format(new Date(`${guide.source.checkedOn}T12:00:00Z`))}</span>
           <details className="guide-assumptions"><summary>Timing &amp; price assumptions</summary><p>{guide.transitBasis}</p><p>{guide.exclusions}</p></details>

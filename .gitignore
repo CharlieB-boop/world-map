@@ -6,3 +6,4 @@ playwright-report/
 test-results/
 public/destinations.json
 public/moving-guides.json
+public/prototype-estimates.json

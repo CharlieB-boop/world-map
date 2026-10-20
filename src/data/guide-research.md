@@ -8,7 +8,7 @@ Source pages were fetched successfully over HTTPS, read, and checked against the
 - 55 household transit guides. Ireland has a verified page and box-price examples, but no household timing was extracted.
 - Four household price entries: USA and Spain are explicit two-bedroom prices; India and Singapore are **two- to three-bedroom** references, visibly labelled as broader.
 - 26 box-shipping guides, including 23 with count-based prices. The remaining three provide transit only.
-- Other destinations and missing fields retain quote/transit placeholders. Prices are not extrapolated across countries, quantities or property sizes.
+- Other destinations and missing researched fields now use separately labelled illustrative prototype budgets, per the owner’s subsequent request. These invented values live in `prototype-estimates.json`, not this researched dataset. Prices are not extrapolated across countries, quantities or property sizes.
 
 ## Household price references
 

@@ -64,7 +64,7 @@ export default function App() {
           </div>
           <CountryInfoPanel country={selected} />
         </div>
-        <p className="prototype-note"><span>EXPLORER PROTOTYPE</span> Destinations are provisional and do not confirm current PSS services. Small countries and islands can also be selected using search.</p>
+        <p className="prototype-note"><span>EXPLORER PROTOTYPE</span> Destinations are provisional. Figures marked Illustrative are sample prototype budgets and timings. Published guides show their source.</p>
       </section>
       <section className="next-chapter" aria-label="Moving inspiration"><div className="next-chapter-title"><span className="small-label">MORE THAN A MOVE</span><h2>A new place.<br /><span>A new beginning.</span></h2></div>
         <div className="benefit"><div className="benefit-icon"><PackageCheck size={23} strokeWidth={1.5} /></div><div><h3>Bring what makes it home</h3><p>Your favourite things.<br />Your familiar comforts.</p></div></div>

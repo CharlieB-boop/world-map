@@ -1,0 +1,289 @@
+{
+  "description": "Invented, illustrative design budgets and total moving windows for this prototype. Not web research, PSS rates, statistical averages or service commitments. Published source data always takes priority per field.",
+  "regions": {
+    "Europe": {
+      "household": {
+        "priceRange": "£2,000–£4,000",
+        "transitTime": "2–5 weeks",
+        "transportMode": "Road / ferry"
+      },
+      "boxes": {
+        "priceRange": "£250–£650",
+        "transitTime": "2–4 weeks",
+        "transportMode": "Road / ferry"
+      }
+    },
+    "North America": {
+      "household": {
+        "priceRange": "£3,500–£6,500",
+        "transitTime": "8–14 weeks",
+        "transportMode": "Sea"
+      },
+      "boxes": {
+        "priceRange": "£400–£850",
+        "transitTime": "8–14 weeks",
+        "transportMode": "Sea"
+      }
+    },
+    "Asia": {
+      "household": {
+        "priceRange": "£3,000–£6,000",
+        "transitTime": "8–14 weeks",
+        "transportMode": "Sea"
+      },
+      "boxes": {
+        "priceRange": "£400–£900",
+        "transitTime": "8–14 weeks",
+        "transportMode": "Sea"
+      }
+    },
+    "Middle East": {
+      "household": {
+        "priceRange": "£3,000–£5,500",
+        "transitTime": "7–12 weeks",
+        "transportMode": "Sea"
+      },
+      "boxes": {
+        "priceRange": "£350–£750",
+        "transitTime": "7–12 weeks",
+        "transportMode": "Sea"
+      }
+    },
+    "Africa": {
+      "household": {
+        "priceRange": "£3,000–£5,500",
+        "transitTime": "8–14 weeks",
+        "transportMode": "Sea"
+      },
+      "boxes": {
+        "priceRange": "£350–£750",
+        "transitTime": "8–14 weeks",
+        "transportMode": "Sea"
+      }
+    },
+    "Oceania": {
+      "household": {
+        "priceRange": "£4,000–£7,000",
+        "transitTime": "10–18 weeks",
+        "transportMode": "Sea"
+      },
+      "boxes": {
+        "priceRange": "£500–£1,000",
+        "transitTime": "10–18 weeks",
+        "transportMode": "Sea"
+      }
+    },
+    "Caribbean": {
+      "household": {
+        "priceRange": "£3,500–£6,500",
+        "transitTime": "8–14 weeks",
+        "transportMode": "Sea"
+      },
+      "boxes": {
+        "priceRange": "£400–£850",
+        "transitTime": "8–14 weeks",
+        "transportMode": "Sea"
+      }
+    }
+  },
+  "countryOverrides": {
+    "AU": {
+      "household": {
+        "priceRange": "£3,500–£6,000",
+        "transitTime": "10–16 weeks"
+      }
+    },
+    "NZ": {
+      "household": {
+        "priceRange": "£3,500–£6,500",
+        "transitTime": "10–16 weeks"
+      }
+    },
+    "CA": {
+      "household": {
+        "priceRange": "£3,500–£6,500",
+        "transitTime": "9–16 weeks"
+      }
+    },
+    "IS": {
+      "household": {
+        "priceRange": "£3,000–£5,500",
+        "transitTime": "4–8 weeks"
+      },
+      "boxes": {
+        "priceRange": "£400–£800",
+        "transitTime": "4–8 weeks"
+      }
+    },
+    "NO": {
+      "household": {
+        "priceRange": "£2,500–£4,500",
+        "transitTime": "3–6 weeks"
+      }
+    },
+    "CH": {
+      "household": {
+        "priceRange": "£2,500–£4,500",
+        "transitTime": "2–5 weeks"
+      }
+    },
+    "CY": {
+      "household": {
+        "priceRange": "£2,500–£4,500",
+        "transitTime": "6–10 weeks"
+      }
+    },
+    "MT": {
+      "household": {
+        "priceRange": "£2,500–£4,500",
+        "transitTime": "4–8 weeks"
+      }
+    },
+    "TR": {
+      "household": {
+        "priceRange": "£3,000–£5,500",
+        "transitTime": "4–8 weeks"
+      },
+      "boxes": {
+        "priceRange": "£350–£750",
+        "transitTime": "4–8 weeks"
+      }
+    },
+    "GE": {
+      "household": {
+        "priceRange": "£4,000–£7,000",
+        "transitTime": "8–12 weeks"
+      },
+      "boxes": {
+        "priceRange": "£450–£900",
+        "transitTime": "8–12 weeks"
+      }
+    },
+    "AM": {
+      "household": {
+        "priceRange": "£4,500–£7,500",
+        "transitTime": "8–14 weeks"
+      },
+      "boxes": {
+        "priceRange": "£450–£950",
+        "transitTime": "8–14 weeks"
+      }
+    },
+    "AZ": {
+      "household": {
+        "priceRange": "£4,500–£8,000",
+        "transitTime": "8–14 weeks"
+      },
+      "boxes": {
+        "priceRange": "£500–£1,000",
+        "transitTime": "8–14 weeks"
+      }
+    },
+    "JP": {
+      "household": {
+        "priceRange": "£3,500–£6,500",
+        "transitTime": "9–15 weeks"
+      }
+    },
+    "KR": {
+      "household": {
+        "priceRange": "£3,500–£6,500",
+        "transitTime": "9–15 weeks"
+      },
+      "boxes": {
+        "priceRange": "£400–£850",
+        "transitTime": "9–15 weeks"
+      }
+    },
+    "MN": {
+      "household": {
+        "priceRange": "£4,500–£7,500",
+        "transitTime": "10–18 weeks"
+      },
+      "boxes": {
+        "priceRange": "£550–£1,100",
+        "transitTime": "10–18 weeks"
+      }
+    },
+    "NP": {
+      "household": {
+        "priceRange": "£4,000–£7,000",
+        "transitTime": "10–18 weeks"
+      },
+      "boxes": {
+        "priceRange": "£500–£1,000",
+        "transitTime": "10–18 weeks"
+      }
+    },
+    "BN": {
+      "household": {
+        "priceRange": "£3,500–£6,500",
+        "transitTime": "10–16 weeks"
+      },
+      "boxes": {
+        "priceRange": "£450–£900",
+        "transitTime": "10–16 weeks"
+      }
+    },
+    "FJ": {
+      "household": {
+        "priceRange": "£4,500–£7,500",
+        "transitTime": "12–18 weeks"
+      },
+      "boxes": {
+        "priceRange": "£550–£1,100",
+        "transitTime": "12–18 weeks"
+      }
+    },
+    "PG": {
+      "household": {
+        "priceRange": "£5,000–£8,500",
+        "transitTime": "12–20 weeks"
+      },
+      "boxes": {
+        "priceRange": "£650–£1,200",
+        "transitTime": "12–20 weeks"
+      }
+    },
+    "WS": {
+      "household": {
+        "priceRange": "£5,000–£8,000",
+        "transitTime": "12–20 weeks"
+      },
+      "boxes": {
+        "priceRange": "£600–£1,200",
+        "transitTime": "12–20 weeks"
+      }
+    },
+    "TO": {
+      "household": {
+        "priceRange": "£5,000–£8,000",
+        "transitTime": "12–20 weeks"
+      },
+      "boxes": {
+        "priceRange": "£600–£1,200",
+        "transitTime": "12–20 weeks"
+      }
+    },
+    "VU": {
+      "household": {
+        "priceRange": "£5,000–£8,000",
+        "transitTime": "12–20 weeks"
+      },
+      "boxes": {
+        "priceRange": "£600–£1,200",
+        "transitTime": "12–20 weeks"
+      }
+    },
+    "SB": {
+      "household": {
+        "priceRange": "£5,000–£8,000",
+        "transitTime": "12–20 weeks"
+      },
+      "boxes": {
+        "priceRange": "£600–£1,200",
+        "transitTime": "12–20 weeks"
+      }
+    }
+  }
+}
