@@ -16,4 +16,7 @@ export interface Country {
   /** Null is an unverified placeholder. Set only after checking the final country page. */
   landingPageUrl: string | null;
   landingPageVerifiedOn?: string;
+  /** Country shipping landing page for the boxes tab; absent until verified. */
+  shippingPageUrl?: string | null;
+  shippingPageVerifiedOn?: string;
 }

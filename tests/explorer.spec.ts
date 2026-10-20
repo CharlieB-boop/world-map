@@ -148,6 +148,7 @@ test('configured destination URLs open in the same tab from map and panel', asyn
     const { readFileSync } = await import('node:fs');
     const data = JSON.parse(readFileSync(new URL('../src/data/destinations.json', import.meta.url), 'utf8'));
     data.find((country: { iso: string }) => country.iso === 'AU').landingPageUrl = 'https://www.pssremovals.com/test-only-australia';
+    data.find((country: { iso: string }) => country.iso === 'AU').shippingPageUrl = 'https://www.pssremovals.com/test-only-australia-shipping';
     await route.fulfill({ contentType: 'application/javascript', body: 'export default ' + JSON.stringify(data) });
   });
   await page.route('https://www.pssremovals.com/test-only-australia', route => route.fulfill({ contentType: 'text/html', body: '<h1>Navigation test destination</h1>' }));
@@ -155,6 +156,11 @@ test('configured destination URLs open in the same tab from map and panel', asyn
   await page.locator('[data-country="AU"]').first().hover();
   await page.getByRole('button', { name: 'Explore Removals to Australia' }).click();
   await expect(page).toHaveURL('https://www.pssremovals.com/test-only-australia');
+  await page.goto('/');
+  await page.locator('.popular-chips').getByRole('button', { name: 'Australia', exact: true }).click();
+  await page.getByRole('button', { name: '5–10 boxes' }).click();
+  await page.getByRole('button', { name: 'Explore Shipping to Australia' }).click();
+  await expect(page).toHaveURL('https://www.pssremovals.com/test-only-australia-shipping');
   await page.goto('/');
   await page.locator('[data-country="AU"]').first().click();
   await expect(page).toHaveURL('https://www.pssremovals.com/test-only-australia');
@@ -258,7 +264,7 @@ test('missing researched guides show illustrative prices and times while links s
   await page.getByRole('button', { name: '5–10 boxes' }).click();
   await expect(page.getByText('£450–£950', { exact: true })).toBeVisible();
   await expect(page.getByText('Box shipping cost · Illustrative', { exact: true })).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Explore Removals to Armenia' })).toBeDisabled();
+  await expect(page.getByRole('button', { name: 'Explore Shipping to Armenia' })).toBeDisabled();
 });
 
 test('published household prices and single-size box examples retain their actual basis', async ({ page }) => {

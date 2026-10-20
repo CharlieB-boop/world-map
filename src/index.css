@@ -44,3 +44,5 @@ h1{font-weight:700;letter-spacing:-1.8px;color:var(--pss-blue)}h1>span{color:var
 
 /* Image flags work on Windows as well as systems with emoji flag fonts. */
 .country-flag{display:block;width:24px;height:18px;object-fit:contain;flex-shrink:0}.large-flag{overflow:hidden}.large-flag .country-flag{width:100%;height:100%;object-fit:cover}.result-flag{display:flex;align-items:center}.popular-chips .country-flag{width:18px;height:14px}
+
+.country-content>.country-heading{margin-top:0}.country-content>.country-heading h2{margin:0}.country-content>.country-facts{margin-top:24px}

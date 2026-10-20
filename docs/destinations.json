@@ -88,7 +88,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-australia",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-australia",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "AT",
@@ -328,7 +330,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-canada",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-canada",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "CN",
@@ -347,7 +351,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-china",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-boxes-to-china",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "HR",
@@ -385,7 +391,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-cyprus",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-cyprus",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "CZ",
@@ -534,7 +542,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-france",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-france",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "GE",
@@ -571,7 +581,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-germany",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-germany",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "GR",
@@ -590,7 +602,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-greece",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-greece",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "GD",
@@ -665,7 +679,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-india",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-india",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "ID",
@@ -702,7 +718,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-ireland",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-boxes-to-ireland",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "IT",
@@ -721,7 +739,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-italy",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-italy",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "JM",
@@ -909,7 +929,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-malaysia",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-malaysia",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "MT",
@@ -928,7 +950,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-malta",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-malta",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "MD",
@@ -1039,7 +1063,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-netherlands",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-the-netherlands",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "NZ",
@@ -1058,7 +1084,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-new-zealand",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-new-zealand",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "MK",
@@ -1096,7 +1124,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-norway",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-norway",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "OM",
@@ -1208,7 +1238,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-portugal",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-portugal",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "QA",
@@ -1227,7 +1259,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-qatar",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-qatar",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "RO",
@@ -1338,7 +1372,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-saudi-arabia",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-saudi-arabia",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "RS",
@@ -1376,7 +1412,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-singapore",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-singapore",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "SK",
@@ -1451,7 +1489,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-south-africa",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-south-africa",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "KR",
@@ -1488,7 +1528,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-spain",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-spain",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "LK",
@@ -1525,7 +1567,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-sweden",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-sweden",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "CH",
@@ -1544,7 +1588,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-switzerland",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-switzerland",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "TW",
@@ -1581,7 +1627,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-thailand",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-thailand",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "TO",
@@ -1672,7 +1720,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-uae",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-uae",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "US",
@@ -1691,7 +1741,9 @@
     "transitTime": null,
     "estimatesIllustrative": false,
     "landingPageUrl": "https://www.pssremovals.com/removals-to-usa",
-    "landingPageVerifiedOn": "2026-10-20"
+    "landingPageVerifiedOn": "2026-10-20",
+    "shippingPageUrl": "https://www.pssremovals.com/shipping-to-usa",
+    "shippingPageVerifiedOn": "2026-10-20"
   },
   {
     "iso": "VU",

@@ -57,7 +57,7 @@ export default function App() {
               <span className="map-count">{count} destinations</span>
             </div>
             <WorldMap showJourney={showJourney} setShowJourney={setShowJourney} selected={selected} region={region} position={position} setPosition={setPosition} onSelect={setSelected} />
-            <div className="popular-destinations"><span className="popular-label">A LITTLE INSPIRATION</span><div className="popular-chips">
+            <div className="popular-destinations"><span className="popular-label">Popular Destinations</span><div className="popular-chips">
               {popularDestinations.map(iso => {
                 const country = countries.find(item => item.iso === iso)!;
                 return <button key={iso} className={selected?.iso === iso ? 'selected' : ''} onClick={() => selectCountry(country)}><span aria-hidden="true"><CountryFlag iso={country.iso} /></span>{iso === 'US' ? 'USA' : iso === 'AE' ? 'UAE' : country.name}<ArrowUpRight size={12} /></button>;

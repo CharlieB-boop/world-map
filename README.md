@@ -106,3 +106,22 @@ Country flags use locally hosted `public/flags/` SVGs from
 than emoji that can appear as country-code letters on Windows. The destination
 panel clips the flag into its circular badge; search and popular chips retain
 rectangular flags. All 94 destinations have matching SVG assets.
+
+## Shipment-specific destination links
+
+The `Popular Destinations` strip shows Australia, New Zealand, USA, UAE, Canada,
+South Africa and Spain in that order. Selected-country headings contain only the
+flag and country name; regional labels, the extra caption and generic destination
+prose have been removed.
+
+The panel CTA follows the selected shipment size: **2-bedroom home → removals**
+(`landingPageUrl`), **5–10 boxes → shipping** (`shippingPageUrl`). Navigation still
+opens in the current tab and only accepts HTTPS URLs on the PSS domains. Country
+map clicks retain their original removals destination. Missing shipping URLs stay
+disabled rather than falling back to a removals page.
+
+26 country shipping pages, including all seven main destinations, were checked on
+20 October 2026. See `src/data/shipping-page-research.md` for the verified URLs and
+page headings. General country shipping pages are used where verified; China and
+Ireland use their box-shipping pages. Price-guide source links remain independent
+and continue to cite the pages supporting the displayed figures.
