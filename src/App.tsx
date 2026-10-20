@@ -33,7 +33,7 @@ export default function App() {
   return <div className="app-shell min-h-screen">
     <a className="skip-link" href="#explore">Skip to destination explorer</a>
     <header className="site-header page-width">
-      <a className="wordmark" href="./" aria-label="PSS International Removals home"><span className="pss-logo">PSS<span /></span><span className="wordmark-divider" /><span className="wordmark-subtitle">INTERNATIONAL<br />REMOVALS</span></a>
+      <a className="wordmark" href="./" aria-label="PSS International Removals home"><img className="pss-logo" src={`${import.meta.env.BASE_URL}brand/pss-logo.png`} alt="PSS International Removals" width="161" height="80" /></a>
       <div className="header-note"><Globe2 size={16} /><span>A world of new beginnings.</span></div>
     </header>
     <main className="page-width relative">

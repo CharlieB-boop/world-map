@@ -79,3 +79,23 @@ At the owner's request, all **94 destinations × two shipment types** now have b
 The remaining fields come from `src/data/prototype-estimates.json`. These are **invented design budgets and total-moving windows**, not web findings, PSS rates, statistical averages or operational commitments. The file contains regional defaults and editable country overrides. `src/data/estimateDisplay.ts` combines these with source data and any manually supplied country fields. No extra API or dependency is used.
 
 The UI labels each invented field **Illustrative**, displays a short prototype explanation, and never attaches a PSS source to the invented values. Published source links state which fields they support. This fills 161 missing prices and 108 missing times across the 188 comparisons. Source tables, check dates, exact box quantities, broader household scopes, verified country URLs and the journey preview are retained. Quote placeholders are no longer used for missing prices or timings in this prototype.
+
+## PSS brand treatment
+
+Applied the owner's supplied brand guide: PSS blue `#1f60ab`, orange `#f09114`,
+light blue `#86a6d0`, white and black. The official logo is stored locally at
+`public/brand/pss-logo.png`, downloaded from
+https://www.pssremovals.com/images/pss-removals-logo-opt.png on 20 October 2026
+and used with the owner's permission. It is displayed without recolouring,
+stretching or a recreated wordmark.
+
+Roboto body/bold typography and Roboto Slab secondary headings are served from
+`public/fonts/`; rendering requires no external font or logo requests. The supplied
+guide names Solitas Slab Nor Regular, whose font file was not supplied. **Roboto
+Slab is an explicit prototype substitute**, consistent with the current PSS
+website's font stylesheet, rather than a claim to use Solitas. Font licenses are
+included beside the files (Roboto: OFL; Roboto Slab: Apache 2.0).
+
+Map selections use PSS blue and shipping corridors use orange. Orange calls to
+action use black text for readability. Existing destination, cost/transit and
+route behaviour is retained.

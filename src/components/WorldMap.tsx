@@ -120,7 +120,7 @@ export default function WorldMap({ selected, region, position, setPosition, onSe
                 return <Geography key={geo.rsmKey} geography={geo}
                   {...(enabled ? interactiveProps(country) : { tabIndex: -1, 'aria-hidden': true as const })}
                   className={`country-shape ${enabled ? 'is-supported' : ''} ${chosen ? 'is-selected' : ''}`}
-                  fill={chosen ? '#c92f47' : enabled ? '#cbd9e7' : '#e3e7e9'}
+                  fill={chosen ? '#1f60ab' : enabled ? '#86a6d0' : '#e3e7e9'}
                   stroke="#fafcfd" strokeWidth={0.65 / position.zoom}
                   style={{ default: { outline: 'none' }, hover: { outline: 'none' }, pressed: { outline: 'none' } }} />;
               })}
@@ -129,7 +129,7 @@ export default function WorldMap({ selected, region, position, setPosition, onSe
                   className={`island-marker ${selected?.iso === country.iso ? 'is-selected' : ''}`}>
                   <circle r={5.5 / position.zoom} fill="transparent" stroke="none" />
                   <circle r={2.1 / Math.sqrt(position.zoom)} stroke="#fff" strokeWidth={0.7 / position.zoom}
-                    fill={selected?.iso === country.iso ? '#c92f47' : '#7d9cba'} />
+                    fill={selected?.iso === country.iso ? '#1f60ab' : '#86a6d0'} />
                   <title>{country.name}</title>
                 </Marker>)}
             </>;
@@ -137,7 +137,7 @@ export default function WorldMap({ selected, region, position, setPosition, onSe
         </Geographies>
         {journeyVisible && journeyCountry && <JourneyRoute key={journeyCountry.iso} country={journeyCountry} zoom={position.zoom} />}
         <Marker coordinates={journeyVisible && shippingRoute ? shippingRoute.waypoints[0] : UK_ORIGIN} className="uk-origin" aria-hidden="true">
-          <circle r={3.5 / position.zoom} fill="#142d4e" stroke="white" strokeWidth={1.5 / position.zoom} />
+          <circle r={3.5 / position.zoom} fill="#1f60ab" stroke="white" strokeWidth={1.5 / position.zoom} />
         </Marker>
       </ZoomableGroup>
     </ComposableMap>}

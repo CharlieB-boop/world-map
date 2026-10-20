@@ -17,16 +17,16 @@ export default function JourneyRoute({ country, zoom }: { country: Country; zoom
   return <g className="journey-route" data-testid="journey-route" data-destination={country.iso} data-route-kind={route ? 'researched' : 'schematic'} aria-hidden="true" pointerEvents="none">
     <Line coordinates={coordinates} stroke="#ffffff" strokeWidth={4 / zoom} strokeOpacity={0.9} />
     <Line className="journey-line" coordinates={coordinates}
-      stroke="#c92f47" strokeWidth={1.6 / zoom} strokeLinecap="round" pathLength={1} />
+      stroke="#f09114" strokeWidth={2 / zoom} strokeLinecap="round" pathLength={1} />
     <Marker coordinates={midpoint}>
       <g transform={`scale(${1 / zoom})`}>
-        <circle r={9} fill="white" stroke="#e5a6b0" strokeWidth={0.7} />
-        <path d="M -4 -3.5 L 4 0 L -4 3.5 L -2 0 Z" fill="#c92f47" transform={`rotate(${angle})`} />
+        <circle r={9} fill="white" stroke="#1f60ab" strokeWidth={0.7} />
+        <path d="M -4 -3.5 L 4 0 L -4 3.5 L -2 0 Z" fill="#f09114" transform={`rotate(${angle})`} />
       </g>
     </Marker>
     <Marker coordinates={coordinates[coordinates.length - 1]}>
-      <circle className="journey-endpoint" r={6 / zoom} fill="#ffffff" fillOpacity={0.85} stroke="#c92f47" strokeWidth={1 / zoom} />
-      <circle r={2.5 / zoom} fill="#c92f47" />
+      <circle className="journey-endpoint" r={6 / zoom} fill="#ffffff" fillOpacity={0.85} stroke="#f09114" strokeWidth={1 / zoom} />
+      <circle r={2.5 / zoom} fill="#f09114" />
     </Marker>
   </g>;
 }
