@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test.beforeEach(async ({ page }) => {
+  await page.route('https://www.pssremovals.com/**', route => route.fulfill({contentType:'text/html',body:'<h1>External navigation intercepted</h1>'}));
   await page.goto('/');
   await expect(page.locator('[data-country="AU"]').first()).toBeVisible();
 });
@@ -22,13 +23,10 @@ test('hover updates country facts and keeps the last selection on mouse leave', 
   await expect(page.getByText('Canberra', { exact: true })).toBeVisible();
   await expect(page.getByText('Approx. 27 million', { exact: true })).toBeVisible();
   await expect(page.getByText('Contact us for a quote')).toBeVisible();
-  await expect(page.getByText('Transit time on request')).toBeVisible();
+  await expect(page.getByText('8–16 weeks', { exact: true })).toBeVisible();
   await page.locator('h1').hover();
   await expect(page.getByRole('heading', { name: 'Australia', exact: true })).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Explore Removals to Australia' })).toBeDisabled();
-  const url = page.url();
-  await page.locator('[data-country="AU"]').first().click();
-  expect(page.url()).toBe(url);
+  await expect(page.getByRole('button', { name: 'Explore Removals to Australia' })).toBeEnabled();
 });
 
 test('unsupported countries have no interactive handlers and UK is origin only', async ({ page }) => {
@@ -190,16 +188,16 @@ test('journey is hidden when its destination is outside the selected region', as
   await expect(page.getByRole('button', { name: 'Preview journey' })).toBeDisabled();
 });
 
-test('both shipment comparisons are available without fabricated guide prices', async ({ page }) => {
+test('box guides preserve quantities and do not infer a missing two-bedroom price', async ({ page }) => {
   await page.locator('.popular-chips').getByRole('button', { name: /Australia/ }).click();
   await expect(page.getByRole('button', { name: '2-bedroom home' })).toHaveAttribute('aria-pressed', 'true');
   await expect(page.getByText('Removals cost', { exact: true })).toBeVisible();
   await page.getByRole('button', { name: '5–10 boxes' }).click();
   await expect(page.getByRole('button', { name: '5–10 boxes' })).toHaveAttribute('aria-pressed', 'true');
-  await expect(page.getByText('Box shipping cost', { exact: true })).toBeVisible();
-  await expect(page.getByText('Contact us for a quote', { exact: true })).toBeVisible();
-  await expect(page.getByText('Box dimensions and total weight affect your quote.', { exact: false })).toBeVisible();
-  await expect(page.getByText('Transit time on request', { exact: true })).toBeVisible();
+  await expect(page.getByText('£315–£535', { exact: true })).toBeVisible();
+  await expect(page.getByText('5 Boxes: £315–£355 · 10 Boxes: £495–£535', { exact: true })).toBeVisible();
+  await expect(page.getByText('8–16 weeks', { exact: true })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Source: PSS International Removals' })).toHaveAttribute('href', 'https://www.pssremovals.com/shipping-boxes-to-australia');
 });
 
 test('journey routes work for a Pacific island without invalid antimeridian geometry', async ({ page }) => {
@@ -237,10 +235,59 @@ test('published guides show source and scope without leaking into another shipme
   await page.locator('.popular-chips').getByRole('button', { name: /Australia/ }).click();
   await expect(page.getByText('£123–£456 (test fixture)', { exact: true })).toBeVisible();
   await expect(page.getByText('Two-bedroom test shipment', { exact: true })).toBeVisible();
+  await page.getByText('Timing & price assumptions', { exact: true }).click();
   await expect(page.getByText('Test port-to-port basis.', { exact: false })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Source: Test-only source' })).toHaveAttribute('href', 'https://example.invalid/test-guide');
   await page.getByRole('button', { name: '5–10 boxes' }).click();
   await expect(page.getByText('Contact us for a quote', { exact: true })).toBeVisible();
   await expect(page.getByText('£123–£456 (test fixture)', { exact: true })).toHaveCount(0);
   await expect(page.getByRole('link', { name: 'Source: Test-only source' })).toHaveCount(0);
+});
+
+test('missing guides keep quote placeholders and unverified destinations stay disabled', async ({ page }) => {
+  await page.getByRole('combobox', { name: 'Your next chapter starts with a destination' }).fill('Armenia');
+  await page.getByRole('option', { name: /Armenia/ }).click();
+  await expect(page.getByText('Contact us for a quote', { exact: true })).toBeVisible();
+  await expect(page.getByText('Transit time on request', { exact: true })).toBeVisible();
+  await page.getByRole('button', { name: '5–10 boxes' }).click();
+  await expect(page.getByText('Contact us for a quote', { exact: true })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Explore Removals to Armenia' })).toBeDisabled();
+});
+
+test('published household prices and single-size box examples retain their actual basis', async ({ page }) => {
+  await page.locator('.popular-chips').getByRole('button', { name: /Spain/ }).click();
+  await expect(page.getByText('£2,022–£3,500', { exact: true })).toBeVisible();
+  await expect(page.getByText('1–3 weeks', { exact: true })).toBeVisible();
+  await expect(page.getByText('Part-load service', { exact: true })).toBeVisible();
+  await page.getByRole('button', { name: '5–10 boxes' }).click();
+  await expect(page.getByText('£443', { exact: true })).toBeVisible();
+  await expect(page.getByText('5 Large Boxes: £443', { exact: true })).toBeVisible();
+  await expect(page.getByText('no 10-box price in this table.', { exact: false })).toBeVisible();
+});
+
+test('broader household scopes and old source-table dates remain explicit', async ({ page }) => {
+  const search = page.getByRole('combobox', { name: 'Your next chapter starts with a destination' });
+  await search.fill('India');
+  await page.getByRole('option', { name: /India/ }).click();
+  await expect(page.getByText('From £3,500', { exact: true })).toBeVisible();
+  await expect(page.getByText('this includes 3-bedroom moves', { exact: false })).toBeVisible();
+  await page.getByRole('button', { name: '5–10 boxes' }).click();
+  await expect(page.getByText('2024 table · Checked 20 Oct 2026', { exact: true })).toBeVisible();
+  await expect(page.getByText('£665–£1,075', { exact: true })).toBeVisible();
+});
+
+test('manual example prices stay labelled illustrative beside a sourced transit guide', async ({ page }) => {
+  await page.route('**/src/data/destinations.json*', async route => {
+    const { readFileSync } = await import('node:fs');
+    const data = JSON.parse(readFileSync(new URL('../src/data/destinations.json', import.meta.url), 'utf8'));
+    const australia = data.find((country: { iso: string }) => country.iso === 'AU');
+    australia.removalCost = '£99 (test-only example)';
+    australia.estimatesIllustrative = true;
+    await route.fulfill({contentType:'application/javascript',body:'export default '+JSON.stringify(data)});
+  });
+  await page.reload();
+  await page.locator('.popular-chips').getByRole('button', { name: /Australia/ }).click();
+  await expect(page.getByText('£99 (test-only example)', { exact: true })).toBeVisible();
+  await expect(page.getByText('Removals cost · Illustrative', { exact: true })).toBeVisible();
+  await expect(page.getByText('8–16 weeks', { exact: true })).toBeVisible();
 });

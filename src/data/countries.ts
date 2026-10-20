@@ -3,7 +3,8 @@ import type { Country, Region } from '../types/country';
 
 /** Provisional service list. Facts are rounded 2024-era context, not live data.
  * landingPageUrl: null = unverified placeholder; navigation stays disabled.
- * No prices or transit times are supplied. Future examples must set
+ * Published, source-attributed price/transit guides live in moving-guides.json.
+ * Manual examples in these country fallback fields must set
  * estimatesIllustrative: true to label them visibly in the panel.
  */
 export const countries = destinations as Country[];

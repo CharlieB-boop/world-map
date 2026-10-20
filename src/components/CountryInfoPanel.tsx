@@ -32,17 +32,21 @@ export default function CountryInfoPanel({ country }: { country: Country | null 
           ? 'A household move. Volume and destination affect your quote.'
           : 'A small shipment. Box dimensions and total weight affect your quote.')}</p>
         <div className="guide-facts">
-          <div className="fact"><Package /><div><span>{guide ? 'Published guide range' : shipment === 'household' ? 'Removals cost' : 'Box shipping cost'}{!guide && country.estimatesIllustrative && price ? ' · Illustrative' : ''}</span><strong>{price || 'Contact us for a quote'}</strong></div></div>
-          <div className="fact"><Clock3 /><div><span>{guide ? `${guide.transportMode} transit guide` : 'Shipping transit time'}{!guide && country.estimatesIllustrative && transit ? ' · Illustrative' : ''}</span><strong>{transit || 'Transit time on request'}</strong></div></div>
+          <div className="fact"><Package /><div><span>{guide?.priceRange ? 'Published price guide · GBP' : shipment === 'household' ? 'Removals cost' : 'Box shipping cost'}{!guide?.priceRange && country.estimatesIllustrative && price ? ' · Illustrative' : ''}</span><strong>{price || 'Contact us for a quote'}</strong>{guide?.priceDetails && <small className="price-breakdown">{guide.priceDetails}</small>}</div></div>
+          <div className="fact"><Clock3 /><div><span>{guide?.transitTime ? (guide.transportMode === 'Not specified' || guide.transportMode === 'Mixed' ? 'Published transit guide' : `${guide.transportMode} transit guide`) : 'Shipping transit time'}{!guide?.transitTime && country.estimatesIllustrative && transit ? ' · Illustrative' : ''}</span><strong>{transit || 'Transit time on request'}</strong>{guide?.transitTime && guide.transitScope && <small className="transit-scope">{guide.transitScope}</small>}</div></div>
         </div>
-        {guide && <div className="guide-source"><p>Indicative guide, not a PSS quotation. {guide.transitBasis} {guide.exclusions}</p>
-          <a href={guide.source.url}>Source: {guide.source.publisher}</a><span> · Checked {guide.source.checkedOn}</span></div>}
+        {guide && <div className="guide-source">
+          <p>Published planning guide, not a personalised quotation.</p>
+          <a href={guide.source.url} target="_blank" rel="noopener noreferrer">Source: {guide.source.publisher}</a>
+          <span className="source-date">{guide.source.publishedLabel ? `${guide.source.publishedLabel} · ` : ''}Checked {new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short', year: 'numeric', timeZone: 'Europe/London' }).format(new Date(`${guide.source.checkedOn}T12:00:00Z`))}</span>
+          <details className="guide-assumptions"><summary>Timing &amp; price assumptions</summary><p>{guide.transitBasis}</p><p>{guide.exclusions}</p></details>
+        </div>}
       </div>
       <button className="primary-button" disabled={!getLandingPageUrl(country)} onClick={() => navigateToCountry(country)}>
         <span>Explore Removals to {country.name}</span><ArrowRight size={18} />
       </button>
       <p className="link-note">{getLandingPageUrl(country) ? 'Discover more on the PSS website.' : 'Destination link awaiting verification.'}</p>
-      <p className="estimate-note">Services are provisional. Any guide figures are indicative, not PSS quotations. A personalised quote confirms costs and timings. Population is approximate.</p>
+      <p className="estimate-note">Services are provisional. Guide figures are indicative, not personalised quotations. A personalised quote confirms costs and timings. Population is approximate.</p>
     </div> : <div className="empty-content">
       <div className="panel-eyebrow"><span className="status-dot" /> A WORLD OF POSSIBILITIES</div>
       <div className="globe-art" aria-hidden="true">

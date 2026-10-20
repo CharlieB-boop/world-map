@@ -13,6 +13,7 @@ export interface Country {
   removalCost: string | null;
   transitTime: string | null;
   estimatesIllustrative: boolean;
-  /** Unverified placeholder. Set only after checking the final destination URL. */
+  /** Null is an unverified placeholder. Set only after checking the final country page. */
   landingPageUrl: string | null;
+  landingPageVerifiedOn?: string;
 }

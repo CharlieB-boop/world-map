@@ -1,0 +1,1278 @@
+{
+  "AE": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "7–10 weeks",
+      "shipmentScope": "Shared container for 1–2-bedroom flats and smaller moves; no two-bedroom-specific price.",
+      "transportMode": "Sea",
+      "transitBasis": "Primary groupage table: 7–10 weeks. Allow additional time for clearance and final delivery.",
+      "transitScope": "Sea transit",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-uae",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£271–£466",
+      "priceDetails": "5 Large Boxes: £271–£331 · 10 Large Boxes: £406–£466",
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Range spans the published 5-box and 10-box examples, not a statistical average. Priced carton type and total weight are not stated.",
+      "transportMode": "Sea",
+      "transitScope": "To destination port",
+      "transitBasis": "To destination port; allow additional customs-clearance and final-delivery time.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/shipping-boxes-to-uae",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "AT": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-austria",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "AU": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "8–16 weeks",
+      "shipmentScope": "Shared container for smaller household moves. No two-bedroom-specific price in the published table.",
+      "transportMode": "Sea",
+      "transitBasis": "8–12 weeks to Sydney, Melbourne, Perth and Brisbane; 9–16 to Adelaide, Hobart and Darwin. Allow clearance and final delivery. Range spans the listed groupage routes.",
+      "transitScope": "Sea transit",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-australia",
+        "checkedOn": "2026-10-20",
+        "publishedLabel": "October 2026"
+      }
+    },
+    "boxes": {
+      "priceRange": "£315–£535",
+      "priceDetails": "5 Boxes: £315–£355 · 10 Boxes: £495–£535",
+      "transitTime": "8–16 weeks",
+      "shipmentScope": "Range spans the published 5-box and 10-box examples, not a statistical average. Priced carton type and total weight are not stated.",
+      "transportMode": "Sea",
+      "transitScope": "Sea transit",
+      "transitBasis": "8–12 weeks to Sydney, Melbourne, Perth and Brisbane; 9–16 to Adelaide, Hobart and Darwin. Allow clearance and final delivery.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/shipping-boxes-to-australia",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "BA": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-bosnia-and-herzegovina",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "BD": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Shared-container / groupage service. No two-bedroom-specific price is published.",
+      "transportMode": "Sea",
+      "transitBasis": "Published shared-container sea transit. Allow additional time for customs clearance and final delivery.",
+      "transitScope": "Sea transit",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-bangladesh",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "BE": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-belgium",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "BG": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-bulgaria",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "CA": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "8–16 weeks",
+      "shipmentScope": "Shared container for 1–2-bedroom flats and smaller moves. No two-bedroom-specific price is published.",
+      "transportMode": "Sea",
+      "transitBasis": "Primary groupage table: 8–16 weeks port-to-port; add 1–2 weeks for customs and final delivery.",
+      "transitScope": "Port-to-port",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-canada",
+        "checkedOn": "2026-10-20",
+        "publishedLabel": "October 2026"
+      }
+    },
+    "boxes": {
+      "priceRange": "£420–£872",
+      "priceDetails": "5 Boxes: £420–£583 · 10 Boxes: £572–£872",
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Range spans the published 5-box and 10-box examples, not a statistical average. Priced carton type and total weight are not stated.",
+      "transportMode": "Sea",
+      "transitScope": "To destination port",
+      "transitBasis": "To destination port; allow additional customs-clearance and final-delivery time.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/shipping-boxes-to-canada",
+        "checkedOn": "2026-10-20",
+        "publishedLabel": "2025 table"
+      }
+    }
+  },
+  "CH": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-switzerland",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£500–£750",
+      "priceDetails": "5–8 Large Boxes: £500–£750",
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Published 5–8 large-box range only; no 10-box price. Priced carton type and total weight are not stated.",
+      "transportMode": "Mixed",
+      "transitScope": "Basis not stated",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-switzerland",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "CN": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Shared-container / groupage service. No two-bedroom-specific price is published.",
+      "transportMode": "Sea",
+      "transitBasis": "Published shared-container sea transit. Allow additional time for customs clearance and final delivery.",
+      "transitScope": "Sea transit",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-china",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": null,
+      "priceDetails": null,
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "PSS groupage guide for smaller shipments. No 5–10-box price is published on this page.",
+      "transportMode": "Sea",
+      "transitScope": "To destination port",
+      "transitBasis": "To destination port; allow additional customs-clearance and final-delivery time.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/shipping-boxes-to-china",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "CY": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "4–8 weeks",
+      "shipmentScope": "Shared sea container for 1–2-bedroom flats and smaller moves; no two-bedroom-specific price.",
+      "transportMode": "Sea",
+      "transitBasis": "Shared-container sea-transit estimate. Customs, sailing schedule and final delivery affect the total move time.",
+      "transitScope": "Sea transit",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-cyprus",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£280–£420",
+      "priceDetails": "5–8 Boxes: £280–£420",
+      "transitTime": "Up to 4–8 weeks",
+      "shipmentScope": "Published 5–8 boxes example only; no 10-box price in this table. Priced carton type and total weight are not stated.",
+      "transportMode": "Mixed",
+      "transitScope": "Part-load service",
+      "transitBasis": "Published part-load/groupage service estimate; basis and any clearance allowance are not specified in this table.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/shipping-boxes-to-cyprus",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "CZ": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-czech-republic",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "DE": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-germany",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£720–£895",
+      "priceDetails": "5 Large Boxes: £720–£780 · 10 Large boxes: £835–£895",
+      "transitTime": "Up to 3 weeks",
+      "shipmentScope": "Range spans the published 5-box and 10-box examples, not a statistical average. Priced carton type and total weight are not stated.",
+      "transportMode": "Mixed",
+      "transitScope": "Part-load service",
+      "transitBasis": "Published part-load/groupage service estimate; basis and any clearance allowance are not specified in this table.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/shipping-boxes-to-germany",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "DK": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-denmark",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "EE": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-estonia",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "ES": {
+    "household": {
+      "priceRange": "£2,022–£3,500",
+      "transitTime": "1–3 weeks",
+      "shipmentScope": "2-bedroom home: part-load or small dedicated lorry. Timing shown is for the shared-lorry option.",
+      "transportMode": "Road",
+      "transitBasis": "Primary service table: shared lorry 1–3 weeks. Islands have separate ferry schedules; a dedicated lorry may be faster.",
+      "transitScope": "Part-load service",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-spain",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£443",
+      "priceDetails": "5 Large Boxes: £443",
+      "transitTime": "Up to 3 weeks",
+      "shipmentScope": "Published 5 large boxes example only; no 10-box price in this table. Priced carton type and total weight are not stated.",
+      "transportMode": "Mixed",
+      "transitScope": "Part-load service",
+      "transitBasis": "Published part-load/groupage service estimate; basis and any clearance allowance are not specified in this table.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/shipping-boxes-to-spain",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "FI": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-finland",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "FR": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-france",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£1,105–£1,310",
+      "priceDetails": "5–8 Large Boxes: £1105–£1310",
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Published 5–8 large-box range only; no 10-box price. Priced carton type and total weight are not stated.",
+      "transportMode": "Mixed",
+      "transitScope": "Basis not stated",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-france",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "GR": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-greece",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£985–£1,050",
+      "priceDetails": "5–8 Large Boxes: £985–£1050",
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Published 5–8 large-box range only; no 10-box price. Priced carton type and total weight are not stated.",
+      "transportMode": "Mixed",
+      "transitScope": "Basis not stated",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-greece",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "HR": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-croatia",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "HU": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-hungary",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "IE": {
+    "boxes": {
+      "priceRange": "£690–£890",
+      "priceDetails": "5–8 Large Boxes: £690–£890",
+      "transitTime": null,
+      "shipmentScope": "Published 5–8 large-box range only; no 10-box price. Priced carton type and total weight are not stated.",
+      "transportMode": "Not specified",
+      "transitScope": "Basis not stated",
+      "transitBasis": "No transit estimate verified for this service.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-ireland",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "IN": {
+    "household": {
+      "priceRange": "From £3,500",
+      "transitTime": "6–9 weeks",
+      "shipmentScope": "Published 2–3-bedroom / 20ft-container starting price; this includes 3-bedroom moves and is not an exact 2-bedroom quote.",
+      "transportMode": "Sea",
+      "transitBasis": "Full-container guide: 6–8 weeks to major ports, 6–9 to secondary destinations. Allow customs and delivery time.",
+      "transitScope": "Port-to-port",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-india",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£665–£1,075",
+      "priceDetails": "5 Large Boxes: £665–£900 · 10 Large Boxes: £850–£1075",
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Range spans the published 5-box and 10-box examples, not a statistical average. Priced carton type and total weight are not stated.",
+      "transportMode": "Sea",
+      "transitScope": "To destination port",
+      "transitBasis": "To destination port; allow additional customs-clearance and final-delivery time.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/shipping-boxes-to-india",
+        "checkedOn": "2026-10-20",
+        "publishedLabel": "2024 table"
+      }
+    }
+  },
+  "IS": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-iceland",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "IT": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-italy",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£443–£784",
+      "priceDetails": "5 Large Boxes: £443–£638 · 10 Large Boxes: £624–£784",
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Range spans the published 5-box and 10-box examples; not an average. Priced carton type and total weight are not stated.",
+      "transportMode": "Mixed",
+      "transitScope": "Basis not stated",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-italy",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "JP": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Shared-container / groupage service. No two-bedroom-specific price is published.",
+      "transportMode": "Sea",
+      "transitBasis": "Published shared-container sea transit. Allow additional time for customs clearance and final delivery.",
+      "transitScope": "Sea transit",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-japan",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "KW": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Shared-container / groupage service. No two-bedroom-specific price is published.",
+      "transportMode": "Sea",
+      "transitBasis": "Published shared-container sea transit. Allow additional time for customs clearance and final delivery.",
+      "transitScope": "Sea transit",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-kuwait",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "LI": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-liechtenstein",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "LT": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-lithuania",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "LU": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-luxembourg",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "LV": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-latvia",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "MC": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-monaco",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "ME": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-montenegro",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "MK": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-north-macedonia",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "MT": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "2–4 weeks",
+      "shipmentScope": "Shared container for 1–2-bedroom flats and smaller moves; no two-bedroom-specific price.",
+      "transportMode": "Sea",
+      "transitBasis": "Primary service table gives 2–4 weeks for groupage. This is a transit guide, not a guaranteed collection-to-delivery date.",
+      "transitScope": "Sea transit",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-malta",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£380–£1,150",
+      "priceDetails": "5 Large Boxes: £380–£480 · 10 Large Boxes: £950–£1150",
+      "transitTime": "Up to 3 weeks",
+      "shipmentScope": "Range spans the published 5-box and 10-box examples, not a statistical average. Priced carton type and total weight are not stated.",
+      "transportMode": "Mixed",
+      "transitScope": "Part-load service",
+      "transitBasis": "Published part-load/groupage service estimate; basis and any clearance allowance are not specified in this table.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/shipping-boxes-to-malta",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "MY": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Shared-container / groupage service. No two-bedroom-specific price is published.",
+      "transportMode": "Sea",
+      "transitBasis": "Published shared-container sea transit. Allow additional time for customs clearance and final delivery.",
+      "transitScope": "Sea transit",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-malaysia",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£980–£1,212",
+      "priceDetails": "5–8 Large Boxes: £980–£1212",
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Published 5–8 large-box range only; no 10-box price. Priced carton type and total weight are not stated.",
+      "transportMode": "Sea",
+      "transitScope": "Sea transit",
+      "transitBasis": "Published shared-container sea transit. Allow additional time for customs clearance and final delivery.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-malaysia",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "NL": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-netherlands",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£700–£900",
+      "priceDetails": "5–8 Large Boxes: £700–£900",
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Published 5–8 large-box range only; no 10-box price. Priced carton type and total weight are not stated.",
+      "transportMode": "Mixed",
+      "transitScope": "Basis not stated",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-netherlands",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "NO": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-norway",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£600–£800",
+      "priceDetails": "5–8 Large Boxes: £600–£800",
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Published 5–8 large-box range only; no 10-box price. Priced carton type and total weight are not stated.",
+      "transportMode": "Mixed",
+      "transitScope": "Basis not stated",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-norway",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "NZ": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Shared container for 1–2-bedroom flats and smaller moves. No two-bedroom-specific price is published.",
+      "transportMode": "Sea",
+      "transitBasis": "Shared-container table gives 8–12 weeks port-to-port; add 1–2 weeks for customs and final delivery.",
+      "transitScope": "Port-to-port",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-new-zealand",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£315–£535",
+      "priceDetails": "5 Large Boxes: £315–£355 · 10 Large Boxes: £495–£535",
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Range spans the published 5-box and 10-box examples, not a statistical average. Priced carton type and total weight are not stated.",
+      "transportMode": "Sea",
+      "transitScope": "To destination port",
+      "transitBasis": "To destination port; allow additional customs-clearance and final-delivery time.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/shipping-boxes-to-new-zealand",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "PH": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Shared-container / groupage service. No two-bedroom-specific price is published.",
+      "transportMode": "Sea",
+      "transitBasis": "Published shared-container sea transit. Allow additional time for customs clearance and final delivery.",
+      "transitScope": "Sea transit",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-philippines",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "PK": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Shared-container / groupage service. No two-bedroom-specific price is published.",
+      "transportMode": "Sea",
+      "transitBasis": "Published shared-container sea transit. Allow additional time for customs clearance and final delivery.",
+      "transitScope": "Sea transit",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-pakistan",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "PL": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-poland",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "PT": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-portugal",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£444–£695",
+      "priceDetails": "5 Large Boxes: £444–£505 · 10 Large Boxes: £625–£695",
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Range spans the published 5-box and 10-box examples; not an average. Priced carton type and total weight are not stated.",
+      "transportMode": "Mixed",
+      "transitScope": "Basis not stated",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-portugal",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "QA": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Shared-container / groupage service. No two-bedroom-specific price is published.",
+      "transportMode": "Sea",
+      "transitBasis": "Published shared-container sea transit. Allow additional time for customs clearance and final delivery.",
+      "transitScope": "Sea transit",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-qatar",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": null,
+      "priceDetails": null,
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "PSS groupage guide for smaller shipments. No 5–10-box price is published on this page.",
+      "transportMode": "Sea",
+      "transitScope": "To destination port",
+      "transitBasis": "To destination port; allow additional customs-clearance and final-delivery time.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/shipping-boxes-to-qatar",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "RO": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-romania",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "RS": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-serbia",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "SA": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Shared-container / groupage service. No two-bedroom-specific price is published.",
+      "transportMode": "Sea",
+      "transitBasis": "Published shared-container sea transit. Allow additional time for customs clearance and final delivery.",
+      "transitScope": "Sea transit",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-saudi-arabia",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": null,
+      "priceDetails": null,
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "PSS groupage guide for smaller shipments. No 5–10-box price is published on this page.",
+      "transportMode": "Sea",
+      "transitScope": "To destination port",
+      "transitBasis": "To destination port; allow additional customs-clearance and final-delivery time.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/shipping-boxes-to-saudi-arabia",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "SE": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-sweden",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£600–£800",
+      "priceDetails": "5–8 Large Boxes: £600–£800",
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Published 5–8 large-box range only; no 10-box price. Priced carton type and total weight are not stated.",
+      "transportMode": "Mixed",
+      "transitScope": "Basis not stated",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-sweden",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "SG": {
+    "household": {
+      "priceRange": "£3,500–£5,500",
+      "transitTime": "6–12 weeks",
+      "shipmentScope": "Published 2–3-bedroom home range: 20ft container or large groupage shipment. This includes 3-bedroom moves.",
+      "transportMode": "Sea",
+      "transitBasis": "6–8 weeks full container; 8–12 weeks shared container. Range spans those services; allow customs and final delivery.",
+      "transitScope": "Sea transit",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-singapore",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£565",
+      "priceDetails": "5 Large Boxes: £565",
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Published 5 large boxes example only; no 10-box price in this table. Priced carton type and total weight are not stated.",
+      "transportMode": "Sea",
+      "transitScope": "To destination port",
+      "transitBasis": "To destination port; allow additional customs-clearance and final-delivery time.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/shipping-boxes-to-singapore",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "SI": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-slovenia",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "SK": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-slovakia",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "SM": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-san-marino",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "TH": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Shared-container / groupage service. No two-bedroom-specific price is published.",
+      "transportMode": "Sea",
+      "transitBasis": "Published shared-container sea transit. Allow additional time for customs clearance and final delivery.",
+      "transitScope": "Sea transit",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-thailand",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£1,105–£1,305",
+      "priceDetails": "5–8 Large Boxes: £1105–£1305",
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Published 5–8 large-box range only; no 10-box price. Priced carton type and total weight are not stated.",
+      "transportMode": "Sea",
+      "transitScope": "Sea transit",
+      "transitBasis": "Published shared-container sea transit. Allow additional time for customs clearance and final delivery.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-thailand",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "US": {
+    "household": {
+      "priceRange": "£5,500–£8,500",
+      "transitTime": "8–13 weeks",
+      "shipmentScope": "2-bedroom house/flat: 30–50 boxes plus furniture, using a shared container.",
+      "transportMode": "Sea",
+      "transitBasis": "Primary service table: shared-container total door-to-door estimate. Other sections on the page give different summaries; this uses the detailed table.",
+      "transitScope": "Door-to-door",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-usa",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£416–£590",
+      "priceDetails": "5 Large Boxes: £416–£485 · 10 Large Boxes: £437–£590",
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Range spans the published 5-box and 10-box examples, not a statistical average. Priced carton type and total weight are not stated.",
+      "transportMode": "Sea",
+      "transitScope": "To destination port",
+      "transitBasis": "To destination port; allow additional customs-clearance and final-delivery time.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/shipping-boxes-to-usa",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "XK": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "1–4 weeks",
+      "shipmentScope": "Two-bedroom comparison. Published dedicated/part-load service guide; no two-bedroom-specific price.",
+      "transportMode": "Mixed",
+      "transitBasis": "Published service estimate; the table does not specify a port-to-port or door-to-door basis.",
+      "transitScope": "Basis not stated",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-kosovo",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  },
+  "ZA": {
+    "household": {
+      "priceRange": null,
+      "transitTime": "6–10 weeks",
+      "shipmentScope": "Shared container for 1–2-bedroom flats and smaller moves; no two-bedroom-specific price.",
+      "transportMode": "Sea",
+      "transitBasis": "Primary shared-container table: 6–10 weeks. Total door-to-door time depends on clearance and final delivery.",
+      "transitScope": "Sea transit",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/removals-to-south-africa",
+        "checkedOn": "2026-10-20"
+      }
+    },
+    "boxes": {
+      "priceRange": "£315",
+      "priceDetails": "5 Large Boxes: £315",
+      "transitTime": "8–12 weeks",
+      "shipmentScope": "Published 5 large boxes example only; no 10-box price in this table. Priced carton type and total weight are not stated.",
+      "transportMode": "Sea",
+      "transitScope": "To destination port",
+      "transitBasis": "To destination port; allow additional customs-clearance and final-delivery time.",
+      "exclusions": "A personalised quote confirms collection, delivery, duties, inspections and optional shipment protection.",
+      "source": {
+        "publisher": "PSS International Removals",
+        "url": "https://www.pssremovals.com/shipping-boxes-to-south-africa",
+        "checkedOn": "2026-10-20"
+      }
+    }
+  }
+}
