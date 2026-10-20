@@ -162,3 +162,85 @@ test('configured destination URLs open in the same tab from map and panel', asyn
   await expect(page).toHaveURL('https://www.pssremovals.com/test-only-australia');
   expect(page.context().pages()).toHaveLength(1);
 });
+
+test('journey preview is opt-in, shows a labelled connection and updates with selection', async ({ page }) => {
+  await expect(page.getByRole('button', { name: 'Preview journey' })).toBeDisabled();
+  await expect(page.getByTestId('journey-route')).toHaveCount(0);
+  await page.locator('.popular-chips').getByRole('button', { name: /Australia/ }).click();
+  await page.getByRole('button', { name: 'Preview journey' }).click();
+  await expect(page.getByTestId('journey-route')).toHaveAttribute('data-destination', 'AU');
+  await expect(page.locator('.journey-summary')).toContainText('United Kingdom → Australia');
+  await expect(page.getByText('Illustrative connection · not a shipping itinerary')).toBeVisible();
+  await expect(page.locator('.rsm-zoomable-group')).toHaveAttribute('transform', /scale\(1\)/);
+  const path = await page.locator('.journey-line').getAttribute('d');
+  expect(path).toBeTruthy();
+  expect(path).not.toContain('NaN');
+  // The preview does not intercept the underlying country geometry.
+  await page.locator('.country-shape[data-country="CA"]').first().hover();
+  await expect(page.getByTestId('journey-route')).toHaveAttribute('data-destination', 'CA');
+  await page.getByRole('button', { name: 'Hide journey' }).click();
+  await expect(page.getByTestId('journey-route')).toHaveCount(0);
+});
+
+test('journey is hidden when its destination is outside the selected region', async ({ page }) => {
+  await page.locator('.popular-chips').getByRole('button', { name: /Australia/ }).click();
+  await page.getByRole('button', { name: 'Preview journey' }).click();
+  await page.getByRole('button', { name: 'Europe', exact: true }).click();
+  await expect(page.getByTestId('journey-route')).toHaveCount(0);
+  await expect(page.getByRole('button', { name: 'Preview journey' })).toBeDisabled();
+});
+
+test('both shipment comparisons are available without fabricated guide prices', async ({ page }) => {
+  await page.locator('.popular-chips').getByRole('button', { name: /Australia/ }).click();
+  await expect(page.getByRole('button', { name: '2-bedroom home' })).toHaveAttribute('aria-pressed', 'true');
+  await expect(page.getByText('Removals cost', { exact: true })).toBeVisible();
+  await page.getByRole('button', { name: '5–10 boxes' }).click();
+  await expect(page.getByRole('button', { name: '5–10 boxes' })).toHaveAttribute('aria-pressed', 'true');
+  await expect(page.getByText('Box shipping cost', { exact: true })).toBeVisible();
+  await expect(page.getByText('Contact us for a quote', { exact: true })).toBeVisible();
+  await expect(page.getByText('Box dimensions and total weight affect your quote.', { exact: false })).toBeVisible();
+  await expect(page.getByText('Transit time on request', { exact: true })).toBeVisible();
+});
+
+test('journey routes work for a Pacific island without invalid antimeridian geometry', async ({ page }) => {
+  await page.getByRole('combobox', { name: 'Your next chapter starts with a destination' }).fill('Samoa');
+  await page.getByRole('option', { name: /Samoa/ }).click();
+  await page.getByRole('button', { name: 'Preview journey' }).click();
+  await expect(page.getByTestId('journey-route')).toHaveAttribute('data-destination', 'WS');
+  expect(await page.locator('.journey-line').getAttribute('d')).not.toContain('NaN');
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  expect(await page.locator('.journey-line').evaluate(element => getComputedStyle(element).animationName)).toBe('none');
+});
+
+test('desktop map remains stationary when destination details expand', async ({ page }) => {
+  await page.locator('.map-stage').scrollIntoViewIfNeeded();
+  const before = await page.locator('.map-stage').boundingBox();
+  await page.locator('.country-shape[data-country="AU"]').first().hover();
+  await expect(page.getByRole('heading', { name: 'Australia', exact: true })).toBeVisible();
+  const after = await page.locator('.map-stage').boundingBox();
+  expect(after!.height).toBeCloseTo(before!.height, 1);
+  expect(after!.y).toBeCloseTo(before!.y, 1);
+});
+
+test('published guides show source and scope without leaking into another shipment size', async ({ page }) => {
+  const guide = {
+    priceRange: '£123–£456 (test fixture)', transitTime: 'Test transit window',
+    shipmentScope: 'Two-bedroom test shipment', transportMode: 'Sea',
+    transitBasis: 'Test port-to-port basis.', exclusions: 'Test exclusions.',
+    source: { publisher: 'Test-only source', url: 'https://example.invalid/test-guide', checkedOn: '2026-10-20' },
+  };
+  await page.route('**/src/data/movingGuides.ts*', route => route.fulfill({
+    contentType: 'application/javascript',
+    body: `export const movingGuides = ${JSON.stringify({ AU: { household: guide } })}; export const shipmentLabels = {household:'2-bedroom home',boxes:'5–10 boxes'};`,
+  }));
+  await page.reload();
+  await page.locator('.popular-chips').getByRole('button', { name: /Australia/ }).click();
+  await expect(page.getByText('£123–£456 (test fixture)', { exact: true })).toBeVisible();
+  await expect(page.getByText('Two-bedroom test shipment', { exact: true })).toBeVisible();
+  await expect(page.getByText('Test port-to-port basis.', { exact: false })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Source: Test-only source' })).toHaveAttribute('href', 'https://example.invalid/test-guide');
+  await page.getByRole('button', { name: '5–10 boxes' }).click();
+  await expect(page.getByText('Contact us for a quote', { exact: true })).toBeVisible();
+  await expect(page.getByText('£123–£456 (test fixture)', { exact: true })).toHaveCount(0);
+  await expect(page.getByRole('link', { name: 'Source: Test-only source' })).toHaveCount(0);
+});

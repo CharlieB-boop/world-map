@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
 import { ComposableMap, Geographies, Geography, Graticule, Marker, ZoomableGroup } from 'react-simple-maps';
 import { geoArea } from 'd3-geo';
-import { Compass, LoaderCircle, Minus, MousePointer2, Plus, RotateCcw } from 'lucide-react';
+import { Compass, LoaderCircle, Minus, MousePointer2, Plus, RotateCcw, Route } from 'lucide-react';
 import { countries, countriesByNumericCode, navigateToCountry } from '../data/countries';
+import JourneyRoute, { UK_ORIGIN } from './JourneyRoute';
 import type { Country, Region } from '../types/country';
 
 // Kosovo has no ISO numeric ID in Natural Earth. Match its user-assigned
@@ -23,6 +24,7 @@ export default function WorldMap({ selected, region, position, setPosition, onSe
   const [geography, setGeography] = useState<Record<string, unknown> | null>(null);
   const [error, setError] = useState(false);
   const [attempt, setAttempt] = useState(0);
+  const [showJourney, setShowJourney] = useState(false);
   const pointer = useRef({ type: 'mouse', wasSelected: false });
   const dragging = useRef(false);
   useEffect(() => {
@@ -34,6 +36,8 @@ export default function WorldMap({ selected, region, position, setPosition, onSe
     return () => controller.abort();
   }, [attempt]);
   const isVisible = (country: Country) => region === 'All destinations' || region === country.region;
+  const journeyCountry = selected && isVisible(selected) ? selected : null;
+  const journeyVisible = showJourney && !!journeyCountry;
   function interactiveProps(country: Country) {
     return {
       role: 'button', tabIndex: 0, 'aria-label': `Explore ${country.name}`,
@@ -59,6 +63,16 @@ export default function WorldMap({ selected, region, position, setPosition, onSe
   }
   return <div className="map-stage" aria-label="Interactive world destination map">
     <div className="map-caption"><Compass size={15} /><span>THE WORLD IS WAITING</span></div>
+    <button className="journey-toggle" aria-pressed={journeyVisible} disabled={!journeyCountry}
+      title={journeyCountry ? 'Show an illustrative connection from the UK' : 'Select a destination to preview a journey'}
+      onClick={() => {
+        setShowJourney(!journeyVisible);
+        if (!journeyVisible) setPosition(initialPosition);
+      }}><Route size={14} />{journeyVisible ? 'Hide journey' : 'Preview journey'}</button>
+    {journeyVisible && journeyCountry && <div className="journey-summary">
+      <strong>United Kingdom <span aria-hidden="true">→</span> {journeyCountry.name}</strong>
+      <span>Illustrative connection · not a shipping itinerary</span>
+    </div>}
     {!geography && <div className="map-loading" role="status">{error ? <><p>We couldn’t load the map.</p><button className="text-button" onClick={() => setAttempt(value => value + 1)}>Try again</button></> : <><LoaderCircle className="loading-spinner" /> Loading your world…</>}</div>}
     {geography && <ComposableMap width={900} height={510} projection="geoEqualEarth" projectionConfig={{ scale: 170 }}
       aria-label="World map. Supported countries can be explored with the keyboard, mouse or touch.">
@@ -99,7 +113,8 @@ export default function WorldMap({ selected, region, position, setPosition, onSe
             </>;
           }}
         </Geographies>
-        <Marker coordinates={[-0.12, 51.5]} className="uk-origin" aria-hidden="true">
+        {journeyVisible && journeyCountry && <JourneyRoute key={journeyCountry.iso} country={journeyCountry} zoom={position.zoom} />}
+        <Marker coordinates={UK_ORIGIN} className="uk-origin" aria-hidden="true">
           <circle r={3.5 / position.zoom} fill="#142d4e" stroke="white" strokeWidth={1.5 / position.zoom} />
         </Marker>
       </ZoomableGroup>
